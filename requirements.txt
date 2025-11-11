@@ -1,6 +1,9 @@
+# python -m pip install -r requirements.txt
+
 numpy
 pandas
 chromadb
 openai
 dotenv
 langchain
+pypdf
