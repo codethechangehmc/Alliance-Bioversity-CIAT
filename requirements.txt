@@ -1,6 +1,9 @@
 numpy
 pandas
+<<<<<<< HEAD
 chromadb
 openai
 dotenv
 langchain
+=======
+>>>>>>> da-branch
