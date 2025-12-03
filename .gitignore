@@ -5,3 +5,4 @@ chromadb*
 >>>>>>> da-branch
 pdfs*
 .env
+*.csv

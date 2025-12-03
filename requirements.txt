@@ -1,9 +1,10 @@
+# python -m pip install -r requirements.txt
+
 numpy
 pandas
-<<<<<<< HEAD
 chromadb
 openai
 dotenv
 langchain
-=======
->>>>>>> da-branch
+pypdf
+
