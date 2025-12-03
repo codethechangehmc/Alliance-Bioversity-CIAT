@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 chroma_db*
+=======
+chromadb*
+>>>>>>> da-branch
 pdfs*
 .env
 *.csv
