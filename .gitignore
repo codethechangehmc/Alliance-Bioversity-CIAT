@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-chroma_db*
-=======
-chromadb*
->>>>>>> da-branch
-pdfs*
+chroma_db/*
+pdfs/*
 .env
 *.csv
+pdf_processing/finished_data/*
+pdf_processing/__pycache__/*
+pdf_processing/pdfs/*

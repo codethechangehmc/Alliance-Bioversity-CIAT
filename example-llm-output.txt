@@ -1,0 +1,98 @@
+Currently working on BO1005
+
+
+---------------------
+
+
+```csv
+A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
+TMRL,Yellow maize meal,Crop Product,22.0,% dry matter basis,Yes,Yes,NA
+TMRL,Eragrostis curvula,Crop Product,18.0,% dry matter basis,Yes,Yes,NA
+TMRL,Leucaena leucocephala,Forage Plants,25.0,% dry matter basis,Yes,Yes,"Previously harvested three times, dried, and milled through a 25-mm screen."
+TMRL,Wheat bran,Crop Byproduct,8.0,% dry matter basis,Yes,Yes,NA
+TMRL,Cottonseed oil cake meal,Supplement,9.0,% dry matter basis,Yes,Yes,NA
+TMRL,Sunflower oil cake meal,Supplement,9.0,% dry matter basis,Yes,Yes,NA
+TMRL,Full fat soybean meal,Supplement,0.0,% dry matter basis,NA,NA,NA
+TMRL,Molasses meal,Other Ingredients,7.0,% dry matter basis,Yes,Yes,NA
+TMRL,Mineral mix,Other Ingredients,2.0,% dry matter basis,NA,Yes,"Contains limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix"
+OSCM,Yellow maize meal,Crop Product,27.0,% dry matter basis,Yes,Yes,NA
+OSCM,Eragrostis curvula,Crop Product,30.0,% dry matter basis,Yes,Yes,NA
+OSCM,Leucaena leucocephala,Forage Plants,0.0,% dry matter basis,NA,NA,NA
+OSCM,Wheat bran,Crop Byproduct,8.0,% dry matter basis,Yes,Yes,NA
+OSCM,Cottonseed oil cake meal,Supplement,11.0,% dry matter basis,Yes,Yes,NA
+OSCM,Sunflower oil cake meal,Supplement,11.0,% dry matter basis,Yes,Yes,NA
+OSCM,Full fat soybean meal,Supplement,4.0,% dry matter basis,Yes,Yes,NA
+OSCM,Molasses meal,Other Ingredients,7.0,% dry matter basis,Yes,Yes,NA
+OSCM,Mineral mix,Other Ingredients,2.0,% dry matter basis,NA,Yes,"Contains limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix"
+```
+Currently working on JO1036
+
+
+---------------------
+
+
+```csv
+A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
+T1,Finger Millet Straw,Forage Plants,NA,NA,Yes,Yes,"Collected from farmers immediately after the threshing of grains and stored in a well-ventilated shade."
+T1,NA,NA,NA,NA,NA,NA,NA
+T2,Finger Millet Straw,Forage Plants,552,g/day,Yes,Yes,"Collected from farmers immediately after the threshing of grains and stored in a well-ventilated shade."
+T2,Wheat Bran,Crop Byproduct,267,g/day,Yes,NA,"Purchased from mill factories."
+T2,Noug Seed Cake,Crop Byproduct,133,g/day,Yes,NA,"Purchased from oil processing factories."
+T3,Finger Millet Straw,Forage Plants,489,g/day,Yes,Yes,"Collected from farmers immediately after the threshing of grains and stored in a well-ventilated shade."
+T3,Wheat Bran,Crop Byproduct,280,g/day,Yes,NA,"Purchased from mill factories."
+T3,Grass Pea Hulls,Crop Byproduct,120,g/day,Yes,NA,"Byproduct produced during the processing of grass pea, widely cultivated in Ethiopia."
+T4,Finger Millet Straw,Forage Plants,472,g/day,Yes,Yes,"Collected from farmers immediately after the threshing of grains and stored in a well-ventilated shade."
+T4,Grass Pea Hulls,Crop Byproduct,280,g/day,Yes,NA,"Byproduct produced during the processing of grass pea, widely cultivated in Ethiopia."
+T4,Wheat Bran,Crop Byproduct,120,g/day,Yes,NA,"Purchased from mill factories."
+T5,Finger Millet Straw,Forage Plants,451,g/day,Yes,Yes,"Collected from farmers immediately after the threshing of grains and stored in a well-ventilated shade."
+T5,Grass Pea Hulls,Crop Byproduct,400,g/day,Yes,NA,"Byproduct produced during the processing of grass pea, widely cultivated in Ethiopia."
+```
+Currently working on JO1013
+
+
+---------------------
+
+
+```csv
+A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
+PDS0,Maize offal,Crop Product,450,g/kg,NA,NA,NA
+PDS0,Cowpea husk,Crop Byproduct,255,g/kg,NA,NA,NA
+PDS0,Brewers dried grain,Crop Byproduct,50,g/kg,NA,NA,NA
+PDS0,Groundnut cake,Supplement,200,g/kg,NA,NA,NA
+PDS0,D. oliveri seed meal,Other Ingredients,0,g/kg,NA,NA,NA
+PDS0,Urea,Supplement,5,g/kg,NA,NA,NA
+PDS0,Dicalciumphosphate,Other Ingredients,10,g/kg,NA,NA,NA
+PDS0,*Vit-Miniral Premix,Other Ingredients,10,g/kg,NA,NA,NA
+PDS0,Sulphur powder,Other Ingredients,10,g/kg,NA,NA,NA
+PDS0,Table salt,Other Ingredients,10,g/kg,NA,NA,NA
+PDS25,Maize offal,Crop Product,450,g/kg,NA,NA,NA
+PDS25,Cowpea husk,Crop Byproduct,250,g/kg,NA,NA,NA
+PDS25,Brewers dried grain,Crop Byproduct,50,g/kg,NA,NA,NA
+PDS25,Groundnut cake,Supplement,150,g/kg,NA,NA,NA
+PDS25,D. oliveri seed meal,Other Ingredients,50,g/kg,NA,NA,"Processed D. oliveri seeds"
+PDS25,Urea,Supplement,10,g/kg,NA,NA,NA
+PDS25,Dicalciumphosphate,Other Ingredients,10,g/kg,NA,NA,NA
+PDS25,*Vit-Miniral Premix,Other Ingredients,10,g/kg,NA,NA,NA
+PDS25,Sulphur powder,Other Ingredients,10,g/kg,NA,NA,NA
+PDS25,Table salt,Other Ingredients,10,g/kg,NA,NA,NA
+PDS50,Maize offal,Crop Product,450,g/kg,NA,NA,NA
+PDS50,Cowpea husk,Crop Byproduct,250,g/kg,NA,NA,NA
+PDS50,Brewers dried grain,Crop Byproduct,50,g/kg,NA,NA,NA
+PDS50,Groundnut cake,Supplement,100,g/kg,NA,NA,NA
+PDS50,D. oliveri seed meal,Other Ingredients,100,g/kg,NA,NA,"Processed D. oliveri seeds"
+PDS50,Urea,Supplement,10,g/kg,NA,NA,NA
+PDS50,Dicalciumphosphate,Other Ingredients,10,g/kg,NA,NA,NA
+PDS50,*Vit-Miniral Premix,Other Ingredients,10,g/kg,NA,NA,NA
+PDS50,Sulphur powder,Other Ingredients,10,g/kg,NA,NA,NA
+PDS50,Table salt,Other Ingredients,10,g/kg,NA,NA,NA
+PDS75,Maize offal,Crop Product,450,g/kg,NA,NA,NA
+PDS75,Cowpea husk,Crop Byproduct,250,g/kg,NA,NA,NA
+PDS75,Brewers dried grain,Crop Byproduct,50,g/kg,NA,NA,NA
+PDS75,Groundnut cake,Supplement,50,g/kg,NA,NA,NA
+PDS75,D. oliveri seed meal,Other Ingredients,150,g/kg,NA,NA,"Processed D. oliveri seeds"
+PDS75,Urea,Supplement,10,g/kg,NA,NA,NA
+PDS75,Dicalciumphosphate,Other Ingredients,10,g/kg,NA,NA,NA
+PDS75,*Vit-Miniral Premix,Other Ingredients,10,g/kg,NA,NA,NA
+PDS75,Sulphur powder,Other Ingredients,10,g/kg,NA,NA,NA
+PDS75,Table salt,Other Ingredients,10,g/kg,NA,NA,NA
+```

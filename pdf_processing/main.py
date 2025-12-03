@@ -56,18 +56,18 @@ def main():
     print("PDFs directory:   ", pdfs_dir)
     print("Output directory: ", output_dir)
 
-    # ---- OPTION A: process a specific PDF (your example) ----
-    # Uncomment this block if you ONLY want to process that one file.
-    specific_pdf = pdfs_dir / "bo1005-leketa-2019.pdf"
-    process_pdf(specific_pdf, output_dir)
-    return
+    # # ---- OPTION A: process a specific PDF (your example) ----
+    # # Uncomment this block if you ONLY want to process that one file.
+    # specific_pdf = pdfs_dir / "bo1005-leketa-2019.pdf"
+    # process_pdf(specific_pdf, output_dir)
+    # return
 
-    # # ---- OPTION B: process ALL PDFs in ./pdfs/ ----
-    # if not pdfs_dir.exists():
-    #     raise FileNotFoundError(f"PDFs directory not found: {pdfs_dir}")
+    # ---- OPTION B: process ALL PDFs in ./pdfs/ ----
+    if not pdfs_dir.exists():
+        raise FileNotFoundError(f"PDFs directory not found: {pdfs_dir}")
 
-    # for pdf_path in pdfs_dir.glob("*.pdf"):
-    #     process_pdf(pdf_path, output_dir)
+    for pdf_path in pdfs_dir.glob("*.pdf"):
+        process_pdf(pdf_path, output_dir)
 
 
 if __name__ == "__main__":
