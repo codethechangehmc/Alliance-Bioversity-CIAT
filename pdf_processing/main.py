@@ -5,6 +5,8 @@ import json
 import docling_test
 import mdtojson
 import json_editor
+import table_extractor
+
 
 
 def process_pdf(pdf_path: Path, output_dir: Path):
@@ -68,6 +70,24 @@ def main():
 
     for pdf_path in pdfs_dir.glob("*.pdf"):
         process_pdf(pdf_path, output_dir)
+
+        # ---- FINAL STEP: cleaned JSONs -> CSV tables ----
+    tables_out_root = output_dir / "tables"
+    results = table_extractor.process_all_cleaned_jsons(
+        finished_data_dir=output_dir,
+        tables_out_root=tables_out_root,
+        model="gpt-5-nano",
+    )
+
+    print("\n=== Table extraction summary ===")
+    for json_name, csv_paths in results.items():
+        print(json_name)
+        if not csv_paths:
+            print("  (no tables found / no csv produced)")
+        else:
+            for p in csv_paths:
+                print("  -", p)
+
 
 
 if __name__ == "__main__":
