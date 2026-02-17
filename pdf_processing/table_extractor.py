@@ -2,16 +2,42 @@ from __future__ import annotations
 
 from pathlib import Path
 import json
+import os
 import re
 from typing import Any, Iterable, List
 
+from dotenv import load_dotenv
 from openai import OpenAI
 
-MODEL = "gpt-5-nano"
-client = OpenAI()  # requires OPENAI_API_KEY env var
+# =========================
+# Env + OpenAI client setup
+# =========================
 
+# Assumes folder layout:
+# Alliance-Bioversity-CIAT/
+#   .env
+#   pdf_processing/
+#     table_extractor.py
+#
+# This loads the .env from the repo root (parent of pdf_processing/).
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DOTENV_PATH = REPO_ROOT / ".env"
 
-# ---------------- JSON -> Text (best-effort) ----------------
+load_dotenv(dotenv_path=DOTENV_PATH)
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise EnvironmentError(
+        f"OPENAI_API_KEY not found in environment. "
+        f"Expected it in: {DOTENV_PATH}"
+    )
+
+MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano")
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+# ==================================
+# JSON -> Text (best-effort flatten)
+# ==================================
 
 def _walk_json(obj: Any) -> Iterable[Any]:
     """Yield all nested values in a JSON-like structure."""
@@ -28,7 +54,14 @@ def _walk_json(obj: Any) -> Iterable[Any]:
 def json_to_extraction_text(data: Any) -> str:
     """
     Best-effort: extract all string content from the cleaned JSON and join it.
-    This text may include Markdown tables, markdown snippets, or other extracted text.
+
+    The cleaned JSON came from your pipeline and may contain:
+      - Markdown tables (pipes '|' and separator rows like '---')
+      - headings / labels like 'Table 1'
+      - plain text
+      - code fences
+
+    We flatten all strings so the model can find tables anywhere they appear.
     """
     parts: List[str] = []
     for v in _walk_json(data):
@@ -38,8 +71,9 @@ def json_to_extraction_text(data: Any) -> str:
                 parts.append(s)
     return "\n\n".join(parts)
 
-
-# ---------------- OpenAI: JSON-derived text -> CSVs for all tables ----------------
+# ===========================================
+# OpenAI: JSON-derived text -> CSV (all tables)
+# ===========================================
 
 def extract_tables_to_csv_via_api(
     extracted_text: str,
@@ -100,6 +134,8 @@ def extract_tables_to_csv_via_api(
     )
 
     content = resp.choices[0].message.content or ""
+
+    # Extract all ```csv ... ``` blocks
     csv_blocks = re.findall(r"```csv(.*?)```", content, flags=re.DOTALL | re.IGNORECASE)
 
     csv_paths: list[Path] = []
@@ -113,8 +149,9 @@ def extract_tables_to_csv_via_api(
 
     return csv_paths
 
-
-# ---------------- End-to-end: cleaned JSON -> CSV tables ----------------
+# ======================================
+# End-to-end: cleaned JSON -> CSV tables
+# ======================================
 
 def process_cleaned_json_to_csv_tables(
     cleaned_json_path: str | Path,
@@ -151,6 +188,9 @@ def process_all_cleaned_jsons(
     """
     Find all cleaned_*.json in finished_data_dir and write CSVs into:
       tables_out_root/<paper_stem>/
+
+    Returns:
+      dict mapping cleaned_json_filename -> list of csv Paths
     """
     finished_data_dir = Path(finished_data_dir)
     tables_out_root = Path(tables_out_root)
@@ -165,3 +205,22 @@ def process_all_cleaned_jsons(
         results[cleaned_json.name] = csvs
 
     return results
+
+
+if __name__ == "__main__":
+    # Standalone run (from anywhere):
+    # - Reads cleaned_*.json in pdf_processing/finished_data/
+    # - Writes csvs to pdf_processing/finished_data/tables/<paper>/
+    parent = Path(__file__).parent.resolve()
+    finished_data = parent / "finished_data"
+    tables_root = finished_data / "tables"
+
+    res = process_all_cleaned_jsons(finished_data, tables_root, model=MODEL)
+    print("=== Table extraction summary ===")
+    for json_name, csv_paths in res.items():
+        print(json_name)
+        if not csv_paths:
+            print("  (no tables found / no csv produced)")
+        else:
+            for p in csv_paths:
+                print("  -", p)
