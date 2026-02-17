@@ -10,12 +10,7 @@ import table_extractor
 
 
 def process_pdf(pdf_path: Path, output_dir: Path):
-    """
-    Run the full pipeline for a single PDF:
-    1. docling_test.run -> creates output.md in output_dir
-    2. mdtojson.convert_md_to_json -> output_dir/<basename>.json
-    3. json_editor.clean_json -> output_dir/cleaned_<basename>.json
-    """
+
     print(f"\n=== Processing PDF: {pdf_path} ===")
 
     if not pdf_path.exists():
@@ -58,13 +53,7 @@ def main():
     print("PDFs directory:   ", pdfs_dir)
     print("Output directory: ", output_dir)
 
-    # # ---- OPTION A: process a specific PDF (your example) ----
-    # # Uncomment this block if you ONLY want to process that one file.
-    # specific_pdf = pdfs_dir / "bo1005-leketa-2019.pdf"
-    # process_pdf(specific_pdf, output_dir)
-    # return
-
-    # ---- OPTION B: process ALL PDFs in ./pdfs/ ----
+    #process ALL PDFs in ./pdfs/
     if not pdfs_dir.exists():
         raise FileNotFoundError(f"PDFs directory not found: {pdfs_dir}")
 

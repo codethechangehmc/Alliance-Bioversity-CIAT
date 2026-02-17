@@ -13,12 +13,6 @@ from openai import OpenAI
 # Env + OpenAI client setup
 # =========================
 
-# Assumes folder layout:
-# Alliance-Bioversity-CIAT/
-#   .env
-#   pdf_processing/
-#     table_extractor.py
-#
 # This loads the .env from the repo root (parent of pdf_processing/).
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DOTENV_PATH = REPO_ROOT / ".env"
