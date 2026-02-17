@@ -1,2 +1,11 @@
 numpy
 pandas
+<<<<<<< Updated upstream
+=======
+chromadb
+openai
+dotenv
+langchain
+pypdf
+rapidfuzz
+>>>>>>> Stashed changes
