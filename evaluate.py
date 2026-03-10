@@ -40,6 +40,12 @@ def normalize(val):
     s = str(val).strip().lower()
     if s in ("nan", "na", "none", ""):
         return "na"
+    # parse as float and convert to avoid float vs int mismatches
+    try:
+        num = float(s)
+        return str(int(num)) if num == int(num) else str(num)
+    except (ValueError, OverflowError):
+        pass
     return s
 
 def fuzzy_match_key(diet1, item1, diet2, item2):
@@ -57,6 +63,11 @@ total_validation_rows = 0
 all_missing = []
 # Store per-column stats: {col: {"correct": int, "total": int}}
 col_stats = {col: {"correct": 0, "total": 0} for col in COMPARE_COLS}
+# Notes presence counters (notes excluded from cell accuracy)
+notes_both = 0      # val has notes AND queried has notes
+notes_val_only = 0  # val has notes, queried does not
+notes_q_only = 0    # queried has notes, val does not
+notes_neither = 0   # neither has notes
 
 for paper_id in paper_ids:
     q_paper = queried_df[queried_df["B.Code"] == paper_id].reset_index(drop=True)
@@ -114,13 +125,18 @@ for paper_id in paper_ids:
                     paper_correct += 1
                     col_stats[col]["correct"] += 1
         
-        # Handle Notes/D.Notes column mapping
+        # Handle Notes/D.Notes: track presence only, excluded from cell accuracy
         if NOTES_COL_QUERIED in q_paper.columns and NOTES_COL_VALIDATION in v_paper.columns:
-            q_val = normalize(q_paper.loc[q_idx, NOTES_COL_QUERIED])
-            v_val = normalize(v_paper.loc[v_idx, NOTES_COL_VALIDATION])
-            paper_cells += 1
-            if q_val == v_val:
-                paper_correct += 1
+            q_note = normalize(q_paper.loc[q_idx, NOTES_COL_QUERIED]) != "na"
+            v_note = normalize(v_paper.loc[v_idx, NOTES_COL_VALIDATION]) != "na"
+            if v_note and q_note:
+                notes_both += 1
+            elif v_note:
+                notes_val_only += 1
+            elif q_note:
+                notes_q_only += 1
+            else:
+                notes_neither += 1
     
     total_correct += paper_correct
     total_cells += paper_cells
@@ -151,6 +167,14 @@ for col in COMPARE_COLS:
     c = col_stats[col]
     acc = (c["correct"] / c["total"] * 100) if c["total"] > 0 else 0
     print(f"  {col}: {c['correct']}/{c['total']} ({acc:.1f}%)")
+
+# Notes presence breakdown
+print(f"\nNotes Presence Breakdown (matched rows):")
+total_notes_rows = notes_both + notes_val_only + notes_q_only + notes_neither
+print(f"  Both have notes:        {notes_both}/{total_notes_rows}")
+print(f"  Val only has notes:     {notes_val_only}/{total_notes_rows}")
+print(f"  Queried only has notes: {notes_q_only}/{total_notes_rows}")
+print(f"  Neither has notes:      {notes_neither}/{total_notes_rows}")
 
 # Missing ingredients
 missing_df = pd.DataFrame(all_missing)
