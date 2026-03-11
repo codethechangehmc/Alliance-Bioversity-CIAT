@@ -227,11 +227,24 @@ def process_all_cleaned_jsons(
     tables_out_root = Path(tables_out_root)
     tables_out_root.mkdir(parents=True, exist_ok=True)
 
+    all_jsons = sorted(finished_data_dir.glob("cleaned_*.json"))
+    total = len(all_jsons)
+
+    if total == 0:
+        print("No cleaned JSON files found. Make sure previous pipeline steps ran successfully.")
+        return {}
+
+    print(f"Found {total} file(s) to process.")
+    print()
+
     results: dict[str, list[Path]] = {}
 
-    for cleaned_json in sorted(finished_data_dir.glob("cleaned_*.json")):
+    for i, cleaned_json in enumerate(all_jsons, start=1):
         base_name = cleaned_json.stem.replace("cleaned_", "")
         out_dir = tables_out_root / base_name
+
+        print(f"[{i}/{total}] Processing: {cleaned_json.name}")
+        print(f"        Sending to API (model: {model}) ...")
 
         csvs = process_cleaned_json_to_csv_tables(
             cleaned_json_path=cleaned_json,
@@ -239,6 +252,14 @@ def process_all_cleaned_jsons(
             model=model,
         )
         results[cleaned_json.name] = csvs
+
+        if not csvs:
+            print(f"        Done. No tables found.")
+        else:
+            print(f"        Done. {len(csvs)} table(s) saved to: {out_dir}")
+            for p in csvs:
+                print(f"          - {p.name}")
+        print()
 
     return results
 

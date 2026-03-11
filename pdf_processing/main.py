@@ -92,14 +92,8 @@ def main() -> None:
     )
 
     # --- Print a small summary ---
-    print("\n=== Table extraction summary ===")
-    for json_name, csv_paths in results.items():
-        print(json_name)
-        if not csv_paths:
-            print("  (no tables found / no csv produced)")
-        else:
-            for p in csv_paths:
-                print("  -", p)
+    total_csvs = sum(len(v) for v in results.values())
+    print(f"=== Done. {total_csvs} total CSV(s) extracted across {len(results)} file(s). ===")
 
 
 if __name__ == "__main__":

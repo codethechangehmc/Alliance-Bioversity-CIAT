@@ -116,18 +116,18 @@ Table 2. Feed utilization of ram-lambs fed processed Daniellia oliveri seed meal
 
 a,b,c, means within a row not bearing a common superscript letter significantly differ, (P &lt;0.05)
 
-|                               | Diet    | Diet     | Diet    | Diet    | SEM   | P-value   | P-value   |
+|                               | Diet    | Diet     | Diet    | Diet    |   SEM | P-value   | P-value   |
 |-------------------------------|---------|----------|---------|---------|-------|-----------|-----------|
 | Parameters                    | PDS0    | PDS5     | PDS1 0  | PDS15   |       | L         | Q         |
-| TST (g/d)                     | 285.7 a | 279.0 a  | 267.7 b | 243.0 c | 3.04  | <0.0001   | 0.003     |
-| Concentrate (g/d)             | 667.0 d | 683.2 c  | 724.3 b | 769.1 a | 2.19  | <0.0001   | <0.001    |
-| TotalDM (g/d)                 | 953 d   | 962 c    | 992 b   | 1012 a  | 3.93  | <0.0001   | 0.044     |
-| TotalDM (g/kg LW)             | 51.98 c | 52.01 c  | 53.84 b | 56.90 a | 0.62  | <0.0001   | 0.019     |
-| TotalDM (g/kgW 0.75           | 108 b   | 108 b    | 111 a   | 112 a   | 0.38  | <0.0001   | 0.287     |
-| ) Crude protein (g/kgW 0.75 ) | 18.96 d | 19.51 cd | 20.23 b | 20.50 a | 0.22  | 0.001     | 0.501     |
-| CT (g/kg W 0.75 )             | 0.18 c  | 0.27 b   | 0.29 b  | 0.35 a  | 0.02  | <0.0001   | <0.0001   |
-| ADG (g/day)                   | 104 c   | 105 c    | 113 b   | 120 a   | 1.37  | <0.0001   | 0.035     |
-| Feed conversion ratio         | 9.14 a  | 9.18 a   | 8.77 b  | 8.43 c  | 0.05  | <0.0001   | 0.001     |
+| TST (g/d)                     | 285.7 a | 279.0 a  | 267.7 b | 243.0 c |  3.04 | <0.0001   | 0.003     |
+| Concentrate (g/d)             | 667.0 d | 683.2 c  | 724.3 b | 769.1 a |  2.19 | <0.0001   | <0.001    |
+| TotalDM (g/d)                 | 953 d   | 962 c    | 992 b   | 1012 a  |  3.93 | <0.0001   | 0.044     |
+| TotalDM (g/kg LW)             | 51.98 c | 52.01 c  | 53.84 b | 56.90 a |  0.62 | <0.0001   | 0.019     |
+| TotalDM (g/kgW 0.75           | 108 b   | 108 b    | 111 a   | 112 a   |  0.38 | <0.0001   | 0.287     |
+| ) Crude protein (g/kgW 0.75 ) | 18.96 d | 19.51 cd | 20.23 b | 20.50 a |  0.22 | 0.001     | 0.501     |
+| CT (g/kg W 0.75 )             | 0.18 c  | 0.27 b   | 0.29 b  | 0.35 a  |  0.02 | <0.0001   | <0.0001   |
+| ADG (g/day)                   | 104 c   | 105 c    | 113 b   | 120 a   |  1.37 | <0.0001   | 0.035     |
+| Feed conversion ratio         | 9.14 a  | 9.18 a   | 8.77 b  | 8.43 c  |  0.05 | <0.0001   | 0.001     |
 
 TST, threshed sorghum tops; PDS, Processed Daniellia oliveri seed. CT, Condensed tannins. ADG, Average daily weight gain
 
@@ -141,20 +141,20 @@ was greater for PDS15 relative to PDS0 and PDS, producing linear trend ( P &lt; 
 
 Table 3. Rumen fermentation parameters and enteric methane production of ramlambs fed processed Daniellia oliveri seed meal-based diet
 
-|                         | Diet         | Diet     | Diet     | Diet    | SEM   | P-value   |            |
+|                         | Diet         | Diet     | Diet     | Diet    |   SEM | P-value   |            |
 |-------------------------|--------------|----------|----------|---------|-------|-----------|------------|
 | Parameter               | PDS0         | PDS25    | PDS50    | PDS7 5  |       | Linear    | Quadrati c |
-| Tempt. ( 0 C)           | 38.98        | 38.90    | 39.00    | 39.02   | 2.73  | 0.560     | 0.410      |
-| pH                      | 6.63 a       | 6.60 a   | 6.58 a   | 6.49 b  | 0.05  | <0.0001   | 0.003      |
-| NH 3 -N (mg/L)          | 173.0 a      | 170.0 a  | 164.0 b  | 160.0 c | 1.97  | <0.0001   | 0.645      |
-| TVFA (mM) VFAs (mol/100 | 117.3 c mol) | 118.1 bc | 120.3 ab | 122.0 a | 1.02  | 0.007     | 0.614      |
-| Acetate (C 2 )          | 78.0 a       | 76.0 b   | 73.0 c   | 71.0 d  | 0.71  | <0.0001   | 0.757      |
-| Propionate (C 3 )       | 26.0 d       | 30.0 c   | 34.0 b   | 37.0 a  | 1.07  | <0.0001   | 0.530      |
-| Butyrate (C 4 )         | 9.8 a        | 8.5 b    | 8.2 bc   | 8.0 c   | 0.17  | <0.0001   | 0.001      |
-| Iso-valerate (C 5 )     | 1.2 d        | 1.9 c    | 2.3 b    | 2.8 a   | 0.05  | <0.0001   | 0.036      |
-| Valerate (C 6 )         | 1.4 d        | 2.2 c    | 2.5 b    | 3.0 a   | 0.11  | <0.0001   | 0.111      |
-| C 2 :C 3                | 3.0 a        | 2.5 b    | 2.2 c    | 1.9 d   | 0.12  | <0.0001   | 0.212      |
-| CH 4 (mol/100 mol)      | 24.0 a       | 22.6 b   | 20.0 c   | 18.6 d  | 0.16  | <0.0001   | 0.787      |
+| Tempt. ( 0 C)           | 38.98        | 38.90    | 39.00    | 39.02   |  2.73 | 0.560     | 0.410      |
+| pH                      | 6.63 a       | 6.60 a   | 6.58 a   | 6.49 b  |  0.05 | <0.0001   | 0.003      |
+| NH 3 -N (mg/L)          | 173.0 a      | 170.0 a  | 164.0 b  | 160.0 c |  1.97 | <0.0001   | 0.645      |
+| TVFA (mM) VFAs (mol/100 | 117.3 c mol) | 118.1 bc | 120.3 ab | 122.0 a |  1.02 | 0.007     | 0.614      |
+| Acetate (C 2 )          | 78.0 a       | 76.0 b   | 73.0 c   | 71.0 d  |  0.71 | <0.0001   | 0.757      |
+| Propionate (C 3 )       | 26.0 d       | 30.0 c   | 34.0 b   | 37.0 a  |  1.07 | <0.0001   | 0.530      |
+| Butyrate (C 4 )         | 9.8 a        | 8.5 b    | 8.2 bc   | 8.0 c   |  0.17 | <0.0001   | 0.001      |
+| Iso-valerate (C 5 )     | 1.2 d        | 1.9 c    | 2.3 b    | 2.8 a   |  0.05 | <0.0001   | 0.036      |
+| Valerate (C 6 )         | 1.4 d        | 2.2 c    | 2.5 b    | 3.0 a   |  0.11 | <0.0001   | 0.111      |
+| C 2 :C 3                | 3.0 a        | 2.5 b    | 2.2 c    | 1.9 d   |  0.12 | <0.0001   | 0.212      |
+| CH 4 (mol/100 mol)      | 24.0 a       | 22.6 b   | 20.0 c   | 18.6 d  |  0.16 | <0.0001   | 0.787      |
 
 a,b,c, means within a row not bearing a common superscript letter significantly differ, (P &lt;0.05)
 
