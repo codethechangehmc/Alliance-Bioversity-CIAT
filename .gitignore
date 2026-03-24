@@ -5,3 +5,7 @@ pdfs/*
 pdf_processing/finished_data/*
 pdf_processing/__pycache__/*
 pdf_processing/pdfs/*
+
+exploratory_transformers.py
+all_outputs.csv
+validation.csv

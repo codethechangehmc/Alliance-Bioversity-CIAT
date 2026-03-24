@@ -13,7 +13,7 @@ This folder contains a simple pipeline that:
 ## Quick Start
 
 1) **Put PDFs in `pdfs/`**  
-2) Run `python main.py`  
+2) Run `python pdf_main.py`  
 3) Find results in `finished_data/`, especially:
    - `finished_data/tables/<pdf_name>/*.csv`
 
@@ -24,7 +24,7 @@ This folder contains a simple pipeline that:
 ```
 pdfs/                  # put PDFs here
 finished_data/         # outputs appear here after running
-main.py
+pdf_main.py
 pdf_to_markdown.py
 mdtojson.py
 json_editor.py
@@ -77,7 +77,7 @@ The table extraction step uses the OpenAI API, so you need to set up your own AP
 - Copy it immediately — you will not be able to view it again after closing the page
 
 ### 2) Save It in a `.env` File
-Create a file named **`.env`** in the **same folder as `main.py`**, and add:
+Create a file named **`.env`** in the **same folder as `pdf_main.py`**, and add:
 
 ```bash
 OPENAI_API_KEY=your_key_here
@@ -109,7 +109,7 @@ pdfs/
 From the repo folder:
 
 ```bash
-python main.py
+python pdf_main.py
 ```
 
 ### 3) Find Your CSVs
@@ -134,7 +134,7 @@ You'll see files like:
 
 ## How the Pipeline Works: A Guide to Each File
 
-### `main.py` — Runs the Whole Pipeline for Every PDF
+### `pdf_main.py` — Runs the Whole Pipeline for Every PDF
 **Input:** all `*.pdf` files in `pdfs/`  
 **Outputs:** intermediate files in `finished_data/` + final CSVs in `finished_data/tables/`
 
@@ -216,11 +216,11 @@ for i, csv_text in enumerate(csv_blocks, 1):
 ### "No PDFs Found"
 - Make sure your PDFs are in `pdfs/`
 - Make sure filenames end in `.pdf`
-- Check that you are running `python main.py` from the repo root folder, not from inside a subfolder
+- Check that you are running `python pdf_main.py` from the repo root folder, not from inside a subfolder
 
 ### "OPENAI_API_KEY Not Found"
 - Make sure you created a `.env` file
-- Make sure it's in the repo root (same folder as `main.py`)
+- Make sure it's in the repo root (same folder as `pdf_main.py`)
 - Make sure the line is exactly: `OPENAI_API_KEY=...` with no spaces around the `=`
 - Double-check that the file is named `.env` and not `.env.txt`
 
