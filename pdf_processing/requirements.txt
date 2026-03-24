@@ -12,3 +12,4 @@ docling
 ollama
 jsoneditor
 ftfy
+openai
