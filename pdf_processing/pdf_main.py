@@ -4,7 +4,6 @@ import json
 import pdf_to_markdown
 import mdtojson
 import json_editor
-import table_extractor
 
 
 def process_pdf(pdf_path: Path, output_dir: Path) -> None:
@@ -60,12 +59,12 @@ def process_pdf(pdf_path: Path, output_dir: Path) -> None:
     print("Cleaning complete! Cleaned file saved as", cleaned_file_path)
 
 
+
 def main() -> None:
     """
     Batch runner:
       - processes every *.pdf in ./pdfs/
       - writes intermediate artifacts to ./finished_data/
-      - extracts tables from cleaned JSONs into ./finished_data/tables/
     """
     # Resolve directories relative to this script (works from any current working dir).
     parent_dir = Path(__file__).parent.resolve()
@@ -80,20 +79,12 @@ def main() -> None:
     if not pdfs_dir.exists():
         raise FileNotFoundError(f"PDFs directory not found: {pdfs_dir}")
 
+    processed_count = 0
     for pdf_path in pdfs_dir.glob("*.pdf"):
         process_pdf(pdf_path, output_dir)
+        processed_count += 1
 
-    # --- Extract tables from all cleaned JSON files ---
-    tables_out_root = output_dir / "tables"
-    results = table_extractor.process_all_cleaned_jsons(
-        finished_data_dir=output_dir,
-        tables_out_root=tables_out_root,
-        model="gpt-5-nano",
-    )
-
-    # --- Print a small summary ---
-    total_csvs = sum(len(v) for v in results.values())
-    print(f"=== Done. {total_csvs} total CSV(s) extracted across {len(results)} file(s). ===")
+    print(f"=== Done. Processed {processed_count} PDF(s). ===")
 
 
 if __name__ == "__main__":
