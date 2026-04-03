@@ -2,9 +2,9 @@ from pathlib import Path
 import os
 import json
 
-from . import docling_test
 from . import mdtojson
 from . import json_editor
+from . import pdf_to_markdown as docling_test
 
 
 def process_pdf(pdf_path: Path, output_dir: Path):
