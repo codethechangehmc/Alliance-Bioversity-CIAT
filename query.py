@@ -39,7 +39,7 @@ A.Level.Name: The name of the diet, as called in the paper
 D.Item: The name of the ingredient in the diet,
 D.Type: The ingredient type (Crop Byproduct, Crop Product, Forage Plants, Supplement, and Other Ingredients)
 D.Amount: The amount of the ingredient in the diet
-D.Unit.Amount: The units for the amount of that ingredient in the diet
+D.Unit.Amount: The units for the amount of that ingredient in the diet 
 DC.Is.Dry: whether the ingredient is dry
 D.Ad.lib: whether it was fed ad libitum.
 Notes: if available, more information about the ingredient, such as where it was sourced, how it was processed, etc. Wrap this in double quotes.
