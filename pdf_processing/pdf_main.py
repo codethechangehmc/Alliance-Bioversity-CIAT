@@ -1,7 +1,8 @@
 from pathlib import Path
+import os
 import json
 
-import pdf_to_markdown
+import pdf_to_markdown as docling_test
 import mdtojson
 import json_editor
 import paper_flagger
@@ -14,7 +15,7 @@ def extract_pdf_id(pdf_path: Path) -> str:
 
 
 
-def process_pdf(pdf_path: Path, output_dir: Path) -> None:
+def process_pdf(pdf_path: Path, output_dir: Path):
     """
     Run the per-PDF portion of the pipeline and write outputs into `output_dir`.
 
@@ -86,6 +87,7 @@ def main() -> None:
 
     print(f"=== Done. Processed {processed_count} PDF(s). ===")
     print("Paper flag summary saved to", summary_csv)
+
 
 
 if __name__ == "__main__":
