@@ -1,304 +1,382 @@
 <!-- image -->
 
-## Feed utilization and rumen microbial ecology of lambs consuming Daniellia Oliveri seed based diet
+https://www.scirp.org/journal/ojas
 
-## Okunade S.A. * 1 , Isah O.A. 2 , Odedara O.O.  3 , Adebayo K.O  2 , and Olafadehan O.A.  4
+ISSN Online: 2161-7627
 
-* Corresponding author:
+ISSN Print: 2161-7597
 
-saokunade2013@gmail.com
+## Effects of Supplementing Finger Millet ( Eleucine coracana ) Straw with Grass Pea ( Lathyrus sativus L.) Hulls and Concentrate Mixture on Feed Intake, Digestibility and Body Weight Change in Washera Sheep
 
-- 1 Department of Animal Production Technology, Federal College of Wildlife Management, New Bussa, affiliated to Forestry Research Institute of Nigeria
-- 2 Department of Animal Nutrition, Federal University of Agriculture, Abeokuta, Nigeria
-- 3 Department of Microbiology, Federal University of Agriculture, Abeokuta, Nigeria
-- 4 Department of Animal Science, University of Abuja, Abuja, Nigeria.
+Shashie Ayele 1* , Shashitu Kefale 2 , Mesganaw Addis 3
 
-## ABSTRACT
+1
 
-This study investigated the effects of replacing processed Daniellia oliveri seed meal (PDS) for groundnut cake (GNC) in the concentrate diets of Yankasa male lambs (6 months old, body weight of 13.70 ± 0.1 kg (body weight)) on feed intake, rumen fermentation parameters and microbial population. Four diets were formulated to contain 0, 50, 100 and 150 g//kg PDS to replace 0, 25,  50  and  75%  GNC  (dry  matter  (DM)  basis)  in  a  complete  randomized design  with  five  animals  per  diet.  Total  DM  intake  (g/kg  BW0.75),  ruminal volatile  fatty  acids,  valerate  and  fungal  population  linearly  increased  but ruminal NH3-N, acetate, acetate: propionate, methane production and Entodinium (as  %  of  the  total  protozoa  count)  linearly  decreased  with increasing PDS level (P&lt;0.01). Whereas, intake of concentrate, total DM (g/d and g/kg BW), average daily weight gain, ruminal pH, butyrate, iso-valerate, total  bacterial  count,  proteolytic  and  amylolytic  bacterial  counts  increased linearly and quadratically, basal roughage intake, protozoal count, cellulolytic bacterial  count,  methanogen count, Diplodinium and Holotrichs (as  %  of  the total  protozoa  count)  decreased  linearly  and  quadratically  (P&lt;0.05)  with increasing  PDS  level.  Feed  conversion  was  lowest  (L  and  Q:P  &lt;  0.01)  for PDS15. Ruminal Ophryoscolex (as  %  of  the  total  protozoa  count)  was  lower (Q:P &lt; 0.0001) for PDS15 than for other diets. Dietary inclusion of 150 g/kg Daniellia oliveri seed meal to replace 75% DM of groundnut cake in the diet of Yankasa lambs improved intake, rumen fermentation and microbial ecology and weight gain.
+Department of Animal Science, College of Agriculture and Environmental Science, Bahir Dar University, Bahir Dar, Ethiopia
 
-Keywords :  condensed tannins, weight gain, rumen fermentation, rumen microbiota, methane, Daniellia
+2 Awi Zone Agriculture Office, Dangila Town, Ethiopia
 
-## INTRODUCTION
+3 Department of Animal Science, College of Agriculture and Natural Resources, Debre-Markos University,
 
-The  rumen  is  endowed  with  a  composite  community  of  microbes (anaerobic  bacteria,  protozoa,  fungi,  methanogenic  archaea  and  phages) whose  major  function  is  fermentation  of  plant  materials  ingested  by  the animals. This symbiotic relationship furnishes the host animal with metabolic energy  and  concomitant  methane  production  in  the  rumen  which  is  energy loss  to  the  animal.  The  understanding  of  dynamic  rumen  ecosystem  can  be harnessed in ruminant nutrition for an increased production to satisfy global protein demand, whilst ensuring minimal environmental impact. Many studies report  several  attempts  to  exploit  plant  secondary  metabolites  (PSM)  as natural  feed  additives  to  modulate  rumen  ecology  for  improved  rumen fermentation efficiency, protein and energy metabolism, and improved animal health and productivity and methane mitigation (Benchaar et al., 2007). The anti-microbial  and  anti-nutritional  properties  of  PSM  made  them  to  be regarded as anti-nutritional factors for decades (Patra et al., 2017). Different processing methods including milling, soaking toasting, decortications, cooking etc have  been  reported  to  reduce  anti-nutritional  factors.  However, polyphenols  and  tannins  retain  their  inhibitory  properties  even  after  heat treatment. Since the PSM mode of anti-microbial action is highly specific, they can  be  exploited  in  modulating  rumen  microbial  ecosystem  for  better  feed utilization and performance by the host animal.
+Debre Markos, Ethiopia
 
-Daniellia oliveri ,  a  tanniniferous evergreen leguminous tree belonging to the family Caesalpiniaceae, is a copiously available tree in the savannah area of  Nigeria  (Okunade  et  al.,  2014b,  2019;  Olafadehan  et  al.,  2020).  Previous studies  (Okunade  and  Olafadehan,  2019)  on  the  nutritive  value  of Daniellia seed  meal indicated  its  potential  as  an  alternative  protein  source  to  the expensive and occasionally scarce conventional protein sources such groundnut  cake,  soybean  cake,  etc.  in  livestock  production.  However,  like other tropical legume seeds, it contains high levels of PSM (tannins, saponins and  other  anti-nutritive  factors).  Plant  secondary  metabolites,  particularly condensed  tannins  (CT),  could  induce  intoxication  if  consumed  in  excess (Olafadehan et al., 2014a; Okunade et al., 2014a), altering ruminal microbiota population  and  activity  and  affecting  performance  of  animals.  Due  to  its content of PSM, processed Daniellia oliveri seed meal (PDS) can be used as a protein  source  in  the  diet  of  ruminants  to  modulate  rumen  microbiota  and thus  improve  feed  utilisation,  ruminal  fermentation  efficiency  and  growth performance, and mitigate methane production. Few studies have considered the effect of replacing secondary metabolites free conventional protein source, such groundnut cake (GNC), with PSM  containing alternative protein ingredient.  Information  on  the  effect  of  feeding  tannin-containing  PDS,  as  a
+How to cite this paper: Ayele, S., Kefale, S. and  Addis,  M.  (2022)  Effects  of  Supplementing Finger Millet  (Eleucine coracana) Straw with Grass Pea (Lathyrus sativus L.) Hulls  and  Concentrate  Mixture  on  Feed Intake, Digestibility and Body Weight Change in Washera Sheep. Open Journal of Animal Sciences, 12, 76-90.
 
-Okunade S.A. et al.
+https://doi.org/10.4236/ojas.2022.121006
 
-protein  source,  to  modulate  ruminal  microflora  with  the  aim  of  altering ruminal fermentation and improve performance of sheep is very scarce. The current study evaluated the effect of replacing GNC  with  PDS  in the supplementary diet of growing lambs on feed utilisation, ruminal microbiota and fermentation and growth performance.
+Received: October 22, 2021
 
-## MATERIALS AND METHODS
+Accepted: December 25, 2021
 
-## Experimental site, animals and management
+Published: December 28, 2021
 
-The  experiment  was  carried  out  at  the  small  ruminant  unit  of  the Teaching and Research Farm, Federal College of Wildlife  Management,  New Bussa, Niger State Nigeria. The study area location (latitude: 9 o 53ʹ and 10 o  00 ꞌꞌ N  and  longitudes  4 o   31 ʹ and  40 o  33 ꞌꞌ E)  is  in  the  guinea  savannah  agroecological  zone  of  North  central  part  of  Nigeria.  It  has  a  mean  annual temperature of  about  37.2 o   C,  with  relative  humidity  of  about  60%  and  the mean annual rainfall value is about 1109mm (Okunade et al, 2019).
+Copyright © 2022 by author(s) and Scientific Research Publishing Inc. This work is licensed under the Creative Commons Attribution International License (CC BY 4.0).
 
-Twenty healthy growing Yankasa intact male lambs (6 months old, body weight, 13.7 ± 0.1 kg) were stratified into four groups of five animals of similar body weight (BW) per group in a completely randomized design. They were housed  individually  in  a  clean,  well-ventilated,  half-walled  and  rammed floored bedded with softwood shaving pens. All male lambs were quarantined and  fed  with  experimental  diets  for  four  weeks;  they  were  intramuscularly injected  and  dewormed  with  1  mL/10  kg  BW  of  oxytetracycline  and levamisole respectively and sprayed against external parasites with diazuntol.
+<!-- image -->
 
-## Seed collection and processing
+## Abstract
 
-Seeds  of Daniellia  oliveri were  collected  from  the  established  plots  of Daniellia oliveri plants within the premises of the Federal College of Wildlife Management,  New  Bussa  Nigeria.  The  forest  conservation  was  established many years ago for the purpose of wildlife and soil conservation to prevent desertification and act as wind break. The dehiscent seeds of Daniellia oliveri were gathered from the ground, cleaned from extraneous materials and sun dried.  The  seeds  were  toasted  by  placing  big  round  iron  cooking  pot containing sand upon a tripod stand under which fire was made with wood. Dried clean D. oliveri seeds were added to sand in ratio 2:1 (w/w). The sand and seeds mixture were heated under controlled temperature (not exceeding 80 o C)  and  frequent  stirring  was  done  to  ensure  even  toasting  for  30 -35 minutes  until  the  seeds  cracked  and  their  white  endosperm  turned  brown with  appealing  aroma.  The  seeds  were  carefully  separated  from  the  sand, allowed  to  cool  and  cracked  exoderm  was  carefully  removed  (decorticated) manually. The processed seeds were ground in a hammer mill (Model W-6-H, Buffalo  NY  14206)  to  pass  through  a  1  mm  sieve  particle  size,  and  tagged
+The  productivity  of  sheep  in  Ethiopia  is  very  low  mainly  due  to  a  serious shortage  of  feedstuff.  As  a  result,  it  is  necessary  to  look  for  cheap  locally available feedstuffs to sustain sheep production in the country. Non-conventional feeds like grass pea (Lathyrus sativus  L.) hulls (GPH) could partly fill the gap in the feed supply, decrease competition for food between humans and animals and reduce feed cost. Therefore, this experiment was designed to evaluate effects of different proportions of grass pea hulls and concentrate mixture (CM) supplementation on feed intake, digestibility, and growth of Washera sheep fed finger millet straw (FMS) as a basal diet. Diets consisted FMS alone  fed ad  libitum  (T1),  100%  CM  (T2),  30%  GPH  mixed  with  70%  CM (T3),  30%  CM  mixed  with  70%  GPH  (T4),  and  100%  GPH  (T5).  For  all treatments, FMS was fed ad libitum. Experimental sheep were arranged in a randomized complete block design and treatment feeds were assigned to the animals within a block. The results showed that FMS contained 5.5% CP and 68.9% NDF. The supplements contained  21%,  20%, 16% and  14% CP; and 36%, 43%, 52% and 59% NDF for T2, T3, T4 and T5, respectively. Supplementation improved (p &lt; 0.0001) DM and nutrient digestibility. Average daily gain (ADG) was 60, 84, 51, and 28 g/day for T2, T3, T4 and T5, respectively,  which showed that T3 recorded the highest ADG and T5 resulted in the lowest  ADG  (p  &lt;  0.0001).  While,  animals  in  T1  lost  a  bodyweight  of  5.6 g/day.  As  the  proportion  of  GPH  supplementation  was  greater  than  30%,
 
-Okunade S.A. et al.
+DOI: 10.4236/ojas.2022.121006    Dec. 28, 2021
 
-processed D. oliveri seed meal (PDS). The seed meal was stored in air -tight containers until ready for use.
+DOI: 10.4236/ojas.2022.121006
 
-## Experimental diets
+there  was  reduction  (p  &lt;  0.05)  in  DM  intake,  DM  and  CP  digestibility  and consequently depressed ADG in sheep. Partial budget analysis results showed that net return and change in net return were in the order of T3 &gt; T2 &gt; T4 &gt; T5. Therefore, from biological point of view as well as based on partial budget analysis, T3 was found to be recommendable for smallholder sheep producers.
 
-Four iso-nitrogenous concentrate diets; (160 g/kg CP on DM basis) were formulated such that (GNC, a conventional protein source) in the control diet was  replaced  with  the  PDS  meals  at  0,  25,  50  and  75%,  and  the  dietary treatments  were  designated  PDS0,  PDS25,  PDS50  and  PDS75,  respectively. Each of the lambs was offered 1 kg of concentrate once daily at 09:00 h, while the  basal  diet,  a  low-quality  threshed  sorghum  tops  (TST),  was  offered  ad libitum  throughout  the  twelve  weeks  experimental  period.  Clean  water  was provided ad libitum daily.
+## Keywords
 
-## Rumen fermentation parameters
+Finger Millet Straw, Lathyrus sativus L. Hull, Sheep, Supplementation
 
-About  100  mL  of  representative  rumen  liquor  was  collected  before morning feeding on the last day of the experiment from each lamb via stomach tube.  Temperature  and  pH  of  rumen  liquor  were  determined  immediately after collection using a portable digital pH and temperature metre model CT 6020.  The  rumen  liquor  was  strained  through  four  layers  of  muslin  cloth, preserved by adding a few drops of saturated mercury (II) chloride solution, placed, taken to the laboratory and frozen at -30 °C pending analysis. Samples were  analysed  for  ammonia  nitrogen  using  micro  Kjedahl  method  (AOAC, 2000) immediately on getting to the  laboratory.  Total  volatile  fatty  acids  in SRL were determined by steam distillation process as described by Keyol and Borilek,  (1995).  Individual  volatile  fatty  acids  (VFA;  acetic,  propionic  and butyric  acids)  were  determined  using  gas  chromatography  as  described  by (Mebrahtu, 1992).
+## 1. Introduction
 
-## Rumen microbial enumeration and isolation
+Ethiopia is recognized to possess one of the most diversified indigenous sheep populations in Africa [1] and it is the home for the second largest sheep population  in  the  continent  [2].  Sheep  contribute  a  substantial  amount  to  the  farm household income, mutton and non-food products,  such  as manure, skin  and coarse wool. However, the productivity of sheep in Ethiopia is very low. For instance, average carcass weight per sheep is estimated to be 10 kg [3] due to limited genetic capacity and mainly environmental factors. Among the environmental factors, the  main challenge for the smallholder livestock production in numerous tropical countries like Ethiopia is the inadequate supply and low level of feeding due to a serious shortage of feedstuff.
 
-Samples of strained rumen fluid were analysed in triplicate. Total viable bacteria and  fungi  were  enumerated  by  the  method  of  Joblin  (1981), respectively,  using  anaerobic  roll  tubes.  Total  protozoa  population  in  the rumen  fluid  was  determined  using  a  Sedgewick-Rafter  counting  chamber (Dehority  et  al., 1989)  with  the  modifications  proposed  by  D'Agosto  and Carneiro (1999), and the protozoa present in each sample were isolated based on the criteria described by Ogimoto and Imai (1981). The bacteria isolation was conducted using conventional techniques of serial dilutions and repeated tubing  of  the  selectively  enriched  microbial  cultures  by  using  the  specific media for rumen bacteria. Strict anaerobic conditions were maintained during the  isolation  procedure  by  continuous  flushing  of  the  rumen  fluid  with  CO2 gas.  The  growth  media  contained  15  mL  mineral  solution  I  (KH2PO4  3.0  g; (NH4)2SO4 6.0 g; NaCl 6.0 g; MgSO4 0.6 g; CaCl2·2H2O 0.795 g per Litre), 15 ml mineral solution II (K2HPO4 3g/litre), 0.25 g yeast extract, 1 g tryptone, 0.1 ml
+The predominant feed sources in Ethiopia are natural pastures, crop residues and aftermath grazing. Because of the expansion of cultivation and shrinkage of traditional grazing areas, crop residues are assuming greater importance as sources of roughage feeds than natural pastures in most places. According to studies conducted in some parts of the mixed crop-livestock farming system of Ethiopian highlands, crop residues provide about 50% of the total ruminant livestock feed resource [4] [5], and their contribution could be as high as 80% during the dry seasons of the year. However, crop residues have a very poor feeding value due to  their  inherent  lower  nutrient  content.  These  feed  resources  have  been  reported to depress feed intake, digestibility, and microbial nitrogen supply. Thus, there is a need for supplement feeds to complement these poor-quality crop residues.
 
-Okunade S.A. et al.
+Supplementation of low-quality feed resources with grains can be employed to enhance the energy and/or protein status of low-quality feeds [6] but is rather costly for smallholders. Instead, conventional agro-industrial by-products have been widely used as energy and protein supplements. Nevertheless, periodic  shortages  and  escalating  costs  of  conventional  agro-industrial  by-products have  limited  their  use  by  smallholder  livestock  producers.  Non-conventional agro-industrial by-products like grass pea hulls could partly fill the gap in the feed supply, decrease competition for food between humans and animals, reduce feed  cost,  and  contribute  to  self-sufficiency  in  nutrients  from  locally  available
 
-resazurine (0.1%), 0.2 ml hemin (0.05%), 0.5 g microcrystalline cellulose, 0.1 g cellobiose, 0.4 g sodium carbonate, 20 ml clear rumen Fluid, 50 ml distilled water and 50 mg cysteine hydrochloride.
+feed sources.
 
-## Chemical analysis and calculations
+In Ethiopia, a large amount of grass pea is produced annually. According to CSA [7], in the year 2016, 151,268.58 hectares of land were covered with grass pea.  From  this  hectare  of  land,  about  2,970,972.08  quintals  of  grass  pea  were produced.  Ethiopian  Export  Promotion  Agency  (EEPA)  [8],  reported  that  in Ethiopia grass pea is a highly consumed pulse in the daily diet of the society in urban and rural areas. It is eaten whole, split or milled usually fresh, fried, boiled or mixed with other cereals to make various types of stews or soups. Therefore, during the feeding process a considerable amount of hulls, a by-product that can be used as feed for livestock, is produced.
 
-Processed Daniellia oliveri seed meals (PDS), basal (TST) and the Daniellia oliveri seed-based  concentrate  diets  were  analysed  for their  proximate constituents according to the method of AOAC (2000). Neutral detergent fibre (NDF),  acid  detergent  fibre  (ADF)  and  acid  detergent  lignin  (ADL)  were determined by methods of Van Soest et al. (1991). Cellulose and hemicellulose were  estimated  as  differences  between  ADF  and  lignin  and  NDF  and  ADF, respectively.  Total  condensed  tannins  were  determined  as  reported  by Polshettiwar et al. (2007). Methane production was estimated by the equation of Moss et al. (2000).
+Currently, grass pea is widely cultivated as human feed in Awi zones of Amhara  regional  state  of  the  study  area  and  produced  a  considerable  amount  of by-product. However, information about the feeding value of the grass pea hull in general in Ethiopia and in the study area, in particular, is limited [9]. Therefore,  this  experiment  was  designed  to  evaluate  the  response  of  Washera  sheep supplemented with different  proportions of grass pea hulls together with concentrate mixtures on feed intake, digestibility, body weight change and the profitability  of  the  feeding  regime  through  partial  budget  analysis fed  finger millet straw as a basal diet.
 
-Estimated  CH4  production  =  0.45  (acetate) -0.275  (propionate)  +  0.5 (butyrate)
+## 2. Materials and Methods
 
-## Statistical analysis
+## 2.1. Experimental Site
 
-Data  were  subjected  to  one  way  of  ANOVA  in  completely  randomized design  using  version  6  of  SAS  software  (SAS  Institute,  2012).  Significance difference between individual means was separated by Duncan's procedure of the same software. Treatments means were considered significant at P&lt;0.05, while polynomial (linear and quadratic) contrasts were used to examine the variable responses to increasing level of PDS in the diets.
+This experiment was carried out in Dangila town at Zubra Abo Kebele, located under the administration of Awi Zone in Amhara National Region State, Ethiopia. Geographically, Zubra Abo kebele is located at an elevation of 2200 m.a.s.l with latitude and longitude of 11˚16'N and 36˚50'E, respectively.
 
-## RESULTS
+## 2.2. Experimental Animals and Their Management
 
-## Nutrient composition of experimental concentrate diets
+All animal handling practices followed the international guiding principles listed by the Council for International Organizations of Medical Sciences and the International Council for Laboratory Animal Science [10].
 
-Dry matter content ranged from 842.8 g/kg DM in PDS25 to 872.9 g/kg DM in PDS50. Whereas OM and NFC increased, ether extract (EE), NDF and ADF decreased with increasing replacement of GNC with PDS (P&lt;0.05). Diets were isonitrogenous. Condensed tannins were higher (P&lt;0.05) for PDS15 than PDS5 and PDS10. PDS is a good quality feedstuff with a  high  crude  protein (CP), low neutral detergent fibre and moderate CT. The basal TST had a low CP and high CT and NDF (Table 1).
+Twenty-five  intact  yearling  male  Washera  sheep  with  mean  initial  body weight (IBW) of 17.5 ± 2.5 kg (mean ± SD) were purchased from Dangila local market. The age of sheep was determined based on dentition and information obtained from the owners. They were quarantined for 21 days in order to observe their health condition. During this period, the animals were injected with acaricide  Ivermectin  against  internal  and  external  parasites.  Sheep  were  vaccinated against sheep pox and pasteurellosis as per the recommendation of a veterinarian.  The  experimental  animals  were  identified  using  neck  tags.  Animals were randomly placed in an individual pen furnished with feeding troughs and water buckets. At the beginning of the acclimatization period, the weight of each sheep was taken for the two consecutive days after overnight fasting and average values were used to group sheep into five blocks of five animals each. Cleaning
 
-Okunade S.A. et al.
+DOI: 10.4236/ojas.2022.121006
 
-Table 1. Ingredient and chemical compositions of experimental concentrate diets. processed seed and basal diet (g/kg DM)
+of the pens was done daily before placement of the daily ration.
 
-| Nutrient                        | Level of PDS in the diet (g/kg)   | Level of PDS in the diet (g/kg)   | Level of PDS in the diet (g/kg)   | Level of PDS in the diet (g/kg)   | SEM                             | PDS                             | TST                             |
-|---------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|---------------------------------|---------------------------------|---------------------------------|
-| Nutrient                        | PDS0                              | PDS5                              | PDS10                             | PDS15                             |                                 |                                 |                                 |
-| Maize offal                     | 450                               | 450                               | 450                               | 450                               |                                 |                                 |                                 |
-| Cowpea husk                     | 255                               | 250                               | 250                               | 250                               |                                 |                                 |                                 |
-| Brewers dried grain             | 50.0                              | 50.0                              | 50.0                              | 50.0                              |                                 |                                 |                                 |
-| Groundnut cake                  | 200                               | 150                               | 100                               | 50.0                              |                                 |                                 |                                 |
-| D. oliveri seed meal            | -                                 | 50.0                              | 100                               | 150                               |                                 |                                 |                                 |
-| Urea                            | 5.00                              | 10.0                              | 10.0                              | 10.0                              |                                 |                                 |                                 |
-| Dicalciumphosphate              | 10.0                              | 10.0                              | 10.0                              | 10.0                              |                                 |                                 |                                 |
-| *Vit-Miniral Premix             | 10.0                              | 10.0                              | 10.0                              | 10.0                              |                                 |                                 |                                 |
-| Sulphur powder                  | 10.0                              | 10.0                              | 10.0                              | 10.0                              |                                 |                                 |                                 |
-| Table salt                      | 10.0                              | 10.0                              | 10.0                              | 10.0                              |                                 |                                 |                                 |
-| Analyzed compositions (g/kg DM) | Analyzed compositions (g/kg DM)   | Analyzed compositions (g/kg DM)   | Analyzed compositions (g/kg DM)   | Analyzed compositions (g/kg DM)   | Analyzed compositions (g/kg DM) | Analyzed compositions (g/kg DM) | Analyzed compositions (g/kg DM) |
-| Ash                             | 75.2 a                            | 51.9 b                            | 44.0 c                            | 39.0 d                            | 2.14                            | 72.41                           | 61.0                            |
-| Organic matter                  | 924.8 d                           | 948.1 c                           | 956.0 b                           | 961.0 a                           | 0.83                            | 927.6                           | 959.0                           |
-| Crude protein                   | 181.3                             | 180.5                             | 181.2                             | 181.1                             | 0.28                            | 390.0                           | 68.1                            |
-| Ether extract                   | 60.9 a                            | 53.7 b                            | 50.3 c                            | 37.5 d                            | 0.27                            | 152.8                           | 146.0                           |
-| Non fibre carbohydrate          | 238.0 d                           | 283.6 c                           | 298.2 b                           | 329.4 a                           | 7.48                            | 122.0                           | 96.4                            |
-| Neutral detergent fibre         | 443.6 a                           | 431.4 b                           | 426.2 c                           | 413.1 d                           | 1.73                            | 263.3                           | 695.7                           |
-| Acid detergent ibre             | 255.0 a                           | 223.2 b                           | 200.4 c                           | 182.3 d                           | 2.14                            | 172.2                           | 580.0                           |
-| Condensed tannins               | ND                                | 25.0 b                            | 26.0 b                            | 30.2 a                            | 1.20                            | 29.50                           | 65.5                            |
+## 2.3. Feed Collection, Preparation, Experimental Design and Treatments
 
-a,b,c,d, means within a row not bearing a common superscript letter significantly differ, (P&lt;0.05) PDS, processed Daniellia oliveri seed meal; ND, not detectable
+Finger millet straw was collected from farmers immediately after the threshing of grains. After collection, the straw was stored in a well-ventilated shade until it was used. Grass pea hulls and wheat bran (WB) were purchased from mill factories  and  noug  seed  cake  (NSC)  was  purchased  from  oil  processing  factories. Then, WB and NSC were mixed in 2:1 ratio, respectively and termed as concentrate mixture (CM). Finger millet straw was offered ad libitum as a basal diet allowing  a  refusal  rate  of  20%.  Graded  levels  of  GPH  and  CM  were  offered  as treatment diet two times a day at 0800 and 1600 h in equal proportions. Supplements and the basal diet were selected based on availability and extent of use by the  farmers.  Supplements  were  formulated  to  support  the  maintenance  and growth of 30 kg weighing sheep to gain 50 - 100 g per day [11]. Water and mineral lick (salt) were available to the animal all the time.
 
-Okunade S.A. et al.
+The  design  of  this  experiment  was  Randomized  Complete  Block  Design (RCBD). The treatments comprised of ad libitum FMS alone (T1), FMS ad libitum + 100% CM (T2), FMS ad libitum + 30% GPH mixed with 70% CM (T3), FMS ad libitum + 30% CM mixed with 70% GPH (T4) and FMS ad libitum + 100% GPH (T5) (Table 1). The supplements were offered on DM basis and each animal received 400 g/day.
 
-## Feed utilisation
+## 2.4. Measurements
 
-Intake of TST and feed conversion decreased (L: P &lt; 0.0001; Q: P &lt; 0.01) as  the  inclusion  of  PDS  in  the  concentrate  increased  (Table  2).  Intakes  of concentrate and total DM (g/d) increased linearly (L&lt;0.0001) and quadratically (P&lt;0.05) with increasing PDS level. Total DM intake (g/kg LW) and  average  daily  gain  (ADG)  increased  (L: P &lt;  0.0001;  Q: P &lt;  0.05)  with increasing proportion of PDS in the diets. Total DM intake (g/kg W0.75) and CP intake were greater (L: P &lt; 0.0001) for PDS15 and PDS10 compared with PDS0 and PDS5. Intake of CT was higher ( P &lt; 0.0001 for L and Q) for PDS15 than for PDS5 and PDS10.
+## 2.4.1. Digestibility Trial
 
-Table 2. Feed utilization of ram-lambs fed processed Daniellia oliveri seed meal based diet
+The digestibility trial was conducted following 15 days of acclimatization period of the experimental diets and pen. It has lasted 10 days in which 3 days for animals to acclimatize carrying of the fecal collecting bags followed by 7 days feces collection  period.  Feces  were  collected  every  morning  for  each  animal  before giving a feed. The daily collected feces from each animal were weighed, mixed thoroughly and 20% was sampled every day and immediately put in refrigerator at  -20˚C.  At  the  end  of  the  digestibility  trial,  composite  feces  sample  of  each sheep for 7 days was formed and 10% was subsampled and put in refrigerator at
 
-a,b,c, means within a row not bearing a common superscript letter significantly differ, (P &lt;0.05)
+Table 1. Treatment layout.
 
-|                               | Diet    | Diet     | Diet    | Diet    |   SEM | P-value   | P-value   |
-|-------------------------------|---------|----------|---------|---------|-------|-----------|-----------|
-| Parameters                    | PDS0    | PDS5     | PDS1 0  | PDS15   |       | L         | Q         |
-| TST (g/d)                     | 285.7 a | 279.0 a  | 267.7 b | 243.0 c |  3.04 | <0.0001   | 0.003     |
-| Concentrate (g/d)             | 667.0 d | 683.2 c  | 724.3 b | 769.1 a |  2.19 | <0.0001   | <0.001    |
-| TotalDM (g/d)                 | 953 d   | 962 c    | 992 b   | 1012 a  |  3.93 | <0.0001   | 0.044     |
-| TotalDM (g/kg LW)             | 51.98 c | 52.01 c  | 53.84 b | 56.90 a |  0.62 | <0.0001   | 0.019     |
-| TotalDM (g/kgW 0.75           | 108 b   | 108 b    | 111 a   | 112 a   |  0.38 | <0.0001   | 0.287     |
-| ) Crude protein (g/kgW 0.75 ) | 18.96 d | 19.51 cd | 20.23 b | 20.50 a |  0.22 | 0.001     | 0.501     |
-| CT (g/kg W 0.75 )             | 0.18 c  | 0.27 b   | 0.29 b  | 0.35 a  |  0.02 | <0.0001   | <0.0001   |
-| ADG (g/day)                   | 104 c   | 105 c    | 113 b   | 120 a   |  1.37 | <0.0001   | 0.035     |
-| Feed conversion ratio         | 9.14 a  | 9.18 a   | 8.77 b  | 8.43 c  |  0.05 | <0.0001   | 0.001     |
+| Treatments   | FMS        |   CM(g/day) |   GPH (g/day) |
+|--------------|------------|-------------|---------------|
+| T1           | Ad libitum |           0 |             0 |
+| T2           | Ad libitum |         400 |             0 |
+| T3           | Ad libitum |         280 |           120 |
+| T4           | Ad libitum |         120 |           280 |
+| T5           | Ad libitum |           0 |           400 |
 
-TST, threshed sorghum tops; PDS, Processed Daniellia oliveri seed. CT, Condensed tannins. ADG, Average daily weight gain
+FMS = finger millet straw; CM = concentrate mixture consisted of wheat bran and noug seed cake in the ratio of 2:1; GPH = grass pea hulls.
 
-## Rumen fermentation parameters and enteric methane production
+DOI: 10.4236/ojas.2022.121006
 
-Diet effect on ruminal temperature was marginal. Ruminal pH was greater (L: P &lt; 0.0001; Q: P = 0.003) in PDS15 than in other diets (Table 3). Ruminal NH3-N was more pronounced in PDS0 and PDS15, intermediate in PDS10 and lowest in PDS15, resulting in a linear response (L: P &lt; 0.0001). Ruminal TVFA
+-20˚C pending chemical analysis. In addition, samples from feed offer and refusals  were  collected  every  morning  and  a  composite  sample  of  offer  for  each feed and refusal per treatment were kept. The composite sub-samples of feces in ice-box container and feed samples were taken to Debre Berhan Research Centre Nutrition Laboratory for chemical analysis.
 
-Okunade S.A. et al.
+Apparent digestibility of DM, OM, CP, NDF, and ADF was determined using the following formula.
 
-was greater for PDS15 relative to PDS0 and PDS, producing linear trend ( P &lt; 0.007).  Whereas  ruminal  acetate,  acetate  to  propionate  ratio  (C2:C3)  and methane gas production decreased linearly ( P &lt;  0.0001),  propionate (L: P &lt; 0.0001), valerate (L: P &lt; 0.0001) and isovalerate (L: P &lt; 0.0001; Q: P = 0.003) increased  with  increasing  PDS  level.  Diet  effect  on  ruminal  butyrate  was higher in PDS0 than other PDS diets (linear and quadratic, P &lt; 0.01).
+<!-- formula-not-decoded -->
 
-Table 3. Rumen fermentation parameters and enteric methane production of ramlambs fed processed Daniellia oliveri seed meal-based diet
+where DM = dry matter.
 
-|                         | Diet         | Diet     | Diet     | Diet    |   SEM | P-value   |            |
-|-------------------------|--------------|----------|----------|---------|-------|-----------|------------|
-| Parameter               | PDS0         | PDS25    | PDS50    | PDS7 5  |       | Linear    | Quadrati c |
-| Tempt. ( 0 C)           | 38.98        | 38.90    | 39.00    | 39.02   |  2.73 | 0.560     | 0.410      |
-| pH                      | 6.63 a       | 6.60 a   | 6.58 a   | 6.49 b  |  0.05 | <0.0001   | 0.003      |
-| NH 3 -N (mg/L)          | 173.0 a      | 170.0 a  | 164.0 b  | 160.0 c |  1.97 | <0.0001   | 0.645      |
-| TVFA (mM) VFAs (mol/100 | 117.3 c mol) | 118.1 bc | 120.3 ab | 122.0 a |  1.02 | 0.007     | 0.614      |
-| Acetate (C 2 )          | 78.0 a       | 76.0 b   | 73.0 c   | 71.0 d  |  0.71 | <0.0001   | 0.757      |
-| Propionate (C 3 )       | 26.0 d       | 30.0 c   | 34.0 b   | 37.0 a  |  1.07 | <0.0001   | 0.530      |
-| Butyrate (C 4 )         | 9.8 a        | 8.5 b    | 8.2 bc   | 8.0 c   |  0.17 | <0.0001   | 0.001      |
-| Iso-valerate (C 5 )     | 1.2 d        | 1.9 c    | 2.3 b    | 2.8 a   |  0.05 | <0.0001   | 0.036      |
-| Valerate (C 6 )         | 1.4 d        | 2.2 c    | 2.5 b    | 3.0 a   |  0.11 | <0.0001   | 0.111      |
-| C 2 :C 3                | 3.0 a        | 2.5 b    | 2.2 c    | 1.9 d   |  0.12 | <0.0001   | 0.212      |
-| CH 4 (mol/100 mol)      | 24.0 a       | 22.6 b   | 20.0 c   | 18.6 d  |  0.16 | <0.0001   | 0.787      |
+## 2.4.2. Feed Intake and Live Weight
 
-a,b,c, means within a row not bearing a common superscript letter significantly differ, (P &lt;0.05)
+The  feeding  trial  was  conducted  following  the  digestibility  trial  on  the  same sheep for a period of 90 days. Daily feed was offered to the experimental animals and the corresponding refusals were measured and recorded during the experimental period to determine daily feed intake. Feed intake was determined by the difference between the amount of feed given and refused every day. Samples of feed offered were taken from batches of feeds and refusals were collected from each animal across the experimental period.
 
-## Rumen microbial population and classification
+Initial and final body weights of the experimental animals were measured using suspended weighing scale with sensitivity of 50 g at the beginning and at the end of the growth trial. To determine the weight change trend in the course of the experiment, live weight of each animal was taken at every 10 days interval in the morning before provision of feed and water after overnight fasting. ADG for each sheep was determined as a difference between the final and initial weight divided by the total number of actual feeding days.
 
-Total ruminal bacterial population was highest for PDS15 and lowest for PDS0 and PDS5, resulting in linear and quadratic responses (L: P &lt; 0.0001; Q: P =  0.008)  (Table  4).  Total  protozoal  population  (linear  and  quadratic,  P  &lt; 0.01)  and Ophryoscolex (as  %  of  the  total  protozoal  count)  (Q: P &lt;  0.0001) were  lower  for  PDS15  than  for  other  treatments.  Fungal  population  was highest in PDS10 and PDS15 and lowest in PDS0 (linear effect, P &lt; 0.0001). Proteolytic  bacterial  numbers  were  lowest  and  highest  in  PDS0  and  PDS15, producing linear and quadratic trends (L and Q: P &lt; 0.0001) respectively. Diet effect  on  cellulolytic  bacteria  and  Holotrichs  (as  %  of  the  total  protozoal count) were linear and quadratic (L: P &lt;  0.0001; Q: P &lt; 0.05), with PDS0 and PDS5  having  the  highest  populations  and  PDS15  the  lowest.  Amylolytic bacterial population was higher in PDS15 compared to other diets (L and Q: P &lt;  0.0001).  The  populations  of  ruminal  archea  methanogens  and Entodinium (as % of the total protozoal count) decreased (linear, P &lt; 0.0001; quadratic, P
+Feed conversion efficiency  (FCE):  This  is  the  measure  of  feed  utilization.  It was calculated as unit of body weight gain per unit of feed consumed. Thus, the FCE was calculated by the formula;
 
-Okunade S.A. et al.
+<!-- formula-not-decoded -->
 
-= 0.0016), as the PDS inclusion level increased. Diplodinium (as % of the total protozoal  count)  was  highest  in  PDS0,  intermediate  in  PDS5  and  lowest  in PDS10 and PDS15, resulting in linear and quadratic trends (L and Q: P &lt; 0.01).
+The substitution rate (SR) of the basal feed by the supplement was calculated using the following equation [12].
 
-Table 4. Rumen microbial population and classification of ram-lambs fed processed Daniellia oliveri seed meal-based diet
+<!-- formula-not-decoded -->
 
-a,b,c,d means within a row not bearing a common superscript letter significantly differ,(P&lt;0.05)
+The metabolisable energy content of treatment feeds was estimated from the digestible organic matter intake of the feeds using the following formula [13].
 
-| Rumen Microbial                                 | Diet                                            | Diet                                            | Diet                                            | Diet                                            | SEM                                             | P-value                                         | P-value                                         |
-|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| Biomass                                         | PDS0                                            | PDS5                                            | PDS1 0                                          | PDS15                                           | SEM                                             | Linear                                          | Quadrat ic                                      |
-| Total viable bacteria ,                         | 9.07 c                                          | 9.32 c                                          | 10.0 b                                          | 10.8 a                                          | 0.24                                            | <0.0001                                         | 0.008                                           |
-| Total protozoa, × 10 4 cell/mL                  | 6.86 a                                          | 6.68 a                                          | 6.48 a                                          | 5.07 b                                          | 0.20                                            | <0.0001                                         | 0.002                                           |
-| Total fungi, × 10 6 cfu/mL                      | 6.67 c                                          | 8.02 b                                          | 8.70 a                                          | 9.27 a                                          | 0.26                                            | <0.0001                                         | 0.078                                           |
-| Bacteria class according to substrate fermented | Bacteria class according to substrate fermented | Bacteria class according to substrate fermented | Bacteria class according to substrate fermented | Bacteria class according to substrate fermented | Bacteria class according to substrate fermented | Bacteria class according to substrate fermented | Bacteria class according to substrate fermented |
-| Proteolytic, × 10 6 /mL                         | 2.30 c                                          | 2.52 b                                          | 2.56 b                                          | 3.08 a                                          | 0.02                                            | <0.0001                                         | <0.001                                          |
-| Cellulolytic, × 10 7 /mL                        | 6.80 a                                          | 6.74 a                                          | 5.87 b                                          | 4.75 c                                          | 0.10                                            | <0.0001                                         | 0.002                                           |
-| Amylolytic, ×10 6 /mL                           | 0.78 c                                          | 0.85 bc                                         | 0.89 b                                          | 1.28 a                                          | 0.03                                            | <0.0001                                         | <0.001                                          |
-| Methanogenic archaea, × 10 8 /mL                | 1.02 a                                          | 0.73 b .                                        | 0.67 c                                          | 0.43 d                                          | 0.02                                            | <0.0001                                         | 0.016                                           |
-| Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   | Protozoa genera (as %of total protozoa count)   |
-| Entodinium                                      | 90.0 a                                          | 87.0 b                                          | 82.0 c                                          | 79.5 d                                          | 0.52                                            | <0.0001                                         | 0.264                                           |
-| Diplodinium                                     | 23.5 a                                          | 23.0 ab                                         | 22.0 b                                          | 21.0 b                                          | 0.58                                            | <0.001                                          | 0.006                                           |
-| Ophryoscolex                                    | 6.10 a                                          | 6.32 a                                          | 6.42 a                                          | 6.00 b                                          | 0.07                                            | 0.358                                           | <0.001                                          |
-| Holotrich                                       | 48.0 a                                          | 47.9 a                                          | 45.8 b                                          | 42.0 c                                          | 0.82                                            | <0.0001                                         | 0.033                                           |
+<!-- formula-not-decoded -->
 
-## DISCUSSION
+where DOMI g/kg DM = digestible organic matter intake gram per kg dry matter.
 
-The nutrient composition of TST is consistent with previous studies (Isah et  al.,  2015;  Okunade  et  al.,  2016;  Okunade  et  al.,  2018).  The  PDS  is  tannincontaining feedstuffs, but with much lower contents than the threshold level at  which  tannins  impair  nutrient  utilization  and  performance  in  ruminants. This might probably be due to the effect of heat treatment and decortications of  the Daniellia  oliveri seed  during  processing.  The  low  CP  and  high  fibre fractions  contents  of  TST  confirm  it  as  a  typical  low-quality  roughage  diet, with  low  feeding  value  that  cannot  meet  the  requirements  of  ruminants  in various physiological states without supplementation. The CP content of the
+## 2.5. Chemical Analysis
 
-Okunade S.A. et al.
+Feces  and  feed  samples  (offer  and  refuse)  were  dried  at  105˚C  overnight  in  a
 
-supplementary concentrates met requirement of 180 g/kg DM recommended for  growing  sheep  (MLA,  2007),  while  NDF  content  was  far  below  the  650 g/kg  DM threshold  level at  which  cell  wall  inhibits  feed  intake,  digestibility and animal performance (Meissner et al., 1991).
+DOI: 10.4236/ojas.2022.121006
 
-Higher concentrate intake of PDS15 indicates increased palatability and hence, acceptability and consumption (Kholif et al., 2018a; Olafadehan et al., 2018). Higher voluntary intake of PDS15 resulted in the higher CP intake for the  lambs.  It  has  been  shown  that  CP  intake  is  a  major  determinant  of ruminant  performance  due  to  increased  availability  of  fermentable  CP  and other nutrients required by rumen bacteria as well as a greater opportunity for  dietary  protein  to  escape  rumen  fermentation  (Conte  et  al.,  2010). Although CT concentration and intake increased with increasing PDS in the diet, highest concentrate intake and ADG of sheep on the PDS15 confirms the moderate and beneficial level of its CT because CT at a high concentration is harmful  and  impairs  palatability,  feed  consumption,  protein  metabolism, nutrient  digestibility  and  weight  gain  (Isah  et  al.,  2015;  Olafadehan  et  al., 2014a, 2020). Therefore, the CT concentration of 3.02 g/kg DM of the PDS15 did not compromise palatability as to adversely affect consumption and ADG. The linear increase in the concentrate diets intake suggests that PDS is more palatable  than  GNC.  Toasted  legume  seeds  are  characterized  by  unique flavours  which  increase  their  sensory  appeal  to  animals  (Raji  et  al.,  2014). Furthermore, the highest total DM intake in PDS15 diet could be attributed to the fibre level, which decreased progressively with increasing PDS replacement for GNC. This must have reduced gut fill and improved the rate and extent of ruminal degradation, resulting in a faster passage of the digesta through  the  gastrointestinal  tract  and  a  shorter  retention  time  (Kang  et  al. 2012; Okunade et al., 2014b; Olafadehan et al., 2014a). In spite of the lowest basal  TST  intake  of  the  PDS15  diet  supplemented  sheep,  overall  DM  intake was highest for the animals. Since both the basal TST and supplementary diet contained CT, the result indicates that the dietary  CT was well tolerated by animals and did not induce tannin toxicosis (Olafadehan et al., 2014a) which affects  rumen  microbiota  and  fermentation,  feed  utilization  and  growth performance. The generally high acceptability of all the diets by the lambs is further confirmed by the relatively high DM consumption (expressed as g/kg LW), which increased from 51.98 to 56.9 g/kg LW as the PDS level increased. Feed intake (g/kg LW), in the current study, is higher than the 3-4 g/kg LW generally  recommended  for  ruminants.  Intakes  expressed  as  the  metabolic were within the range of 3.9 to 6.3 g/kg LW obtained for the Yankasa lambs (Olafadehan et al., 2014b; Isah et al., 2015; Okunade and Olafadehan, 2019). Dry  matter  intake  is  a  key  determinant  of  growth  of  animals;  therefore,  in response  to  feed  intake,  ADG  also  increased  as  the  PDS  increased.  The improved FCR of the PDS diets confirm the previous submission that the CT of
+forced draft oven for DM determination. The remaining feeds and feces samples were dried at 60˚C to constant weight and ground through a 1 mm screen for dry  matter,  total  ash  and  N  determination  following  the  procedure  of  AOAC [14]. Then CP was determined as N X 6.25. Neutral detergent fiber (NDF) and acid detergent fiber (ADF) were determined as per the procedure of Van Soest and Robertson [15]. Organic matter (OM) was calculated as ash deducted from hundred.
 
-Okunade S.A. et al.
+## 2.6. Partial Budget Analysis
 
-the  diets  was  moderate,  well  tolerated  and  did  not  interfere  with  nutrient metabolism,  absorption  and  utilization,  in  agreement  with  earlier  reports (Olafadehan et al., 2020).
+The  partial  budget  analysis  was  carried  out  for  determination  of  the  potential profitability  of  the  feeding  regime  through  the  procedure  of  Upton  [16].  Purchasing and selling prices of sheep, cost of basal diet and supplementary feeds (GPH + WB + NSC) were recorded. At the end of the experiment, the selling prices of sheep were estimated by three well experienced sheep dealers and the average price of those dealers was taken as the selling price of the sheep for each treatment.  The  economic  analysis  included  calculations  of  total  variable  costs (TVC) and benefits from selling of sheep. In the analysis, the total return (TR) was determined by the difference between selling and purchasing price of sheep in each treatment. The net return (NR) was calculated by subtracting total variable cost (TVC) from the total return (TR).
 
-Tannin-containing diets modified rumen fermentation parameters in this study, in accordance with the reports of Belanche et al. (2019). Ruminal temperature measurement is a suitable and feasible means to detect potential adverse  alteration  in  the  health  of  animals  in  real  time  (Wahrmund  et  al., 2012). The unaffected  rumen  temperature  was maintained within the recommended range of 39 to 39.5°C (Wahrmund et al., 2012) which suggests that lambs had no health challenge. No external factor can alter intraruminal temperature,  although  it  is  approximately  0.5°C  higher  than  core  body temperature  due  to  the  activity  of  heat-producing  rumen  microorganisms (Bodas et al., 2014).
+<!-- formula-not-decoded -->
 
-Ruminal  pH  was  within  optimal  range  (6.2  -  7.2)  for  normal  rumen ecology and fermentation (Gunun et al., 2013; Isah et al., 2013). The PDS15 diet  with  the  highest NFC and lowest fibre fractions had the lowest ruminal pH.  High  VFA  and  lactic  acid  production,  as  a  result  of  rapid  ruminal fermentation  of  dietary  readily  fermentable  carbohydrates  and  reduced chewing  time  and  salivation  rate  due  to  low  dietary  fibre  level,  have  been reported  to  lower  ruminal  pH  (Olafadehan  et  al.,  2016;  Olafadehan  and Adebayo, 2016).
+The change in net return (ΔNR) was calculated as the difference between the change in total return (ΔTR) and the change in total variable cost (ΔTVC):
 
-Concentration  of  NH3-N  in  the  rumen  fluid  is  the  net  result  of  NH3-N production  from  feed,  protein  fermentation,  absorption  rate  through  the rumen wall, passage out of  the rumen and utilization by microbes. Ruminal NH3-N concentrations in all the treatments were within the optimal ruminal 200  mg/L  for  optimal  ruminal  ecology,  fermentation  and microbial  growth  (Perdok  and  Leng,  1990).  Decreased  ruminal  NH3-N concentration of PDS diets indicates lower ruminal CP degradability of PDS, due to its CT, relative to GNC. The result indicates higher bypass protein value range  of  150 -of PDS than GNC.
+<!-- formula-not-decoded -->
 
-Increased ruminal VFA concentration of PDS15 diet may be a direct result of  its  highest  readily  fermentable  NFC  content  ((Wanapat  et  al.,  2014; Olafadehan  et  al.,  2016;  Okunade  and  Olafadehan,  2019))  and  enhanced ruminal fermentation (Kholif et al., 2018b). The ruminal VFA concentrations of  all  the  animals  were  within  the  normal  range  for  ruminants.  The  linear increase  in  ruminal  propionate  may  be  due  to  progressive  increase  in  feed intake  as  the  PDS  proportion  increased  in  the  diet.  Therefore,  low  ruminal propionate  in  animals  fed  PDS0  diet  might  be  as  a  result  of  low  DM  intake (Isah et al., 2014) and reduced ruminal fermentation due to its relatively low NFC content. The higher rumen propionate concentration of the lambs fed the PDS,  particularly  PDS15,  is  beneficial  as  it  must  have  enhanced  energy availability for improved nutrient utilisation and ADG. The linear decrease in
+The marginal rate of return (MRR) measures the change in net return (ΔNR) related with each additional unit of costs (ΔTVC). This is expressed as:
 
-Okunade S.A. et al.
+<!-- formula-not-decoded -->
 
-molar proportion of ruminal acetate may be related to the decrease in fibre level of the diets as PDS inclusion level increased. Opsi et al. (2012) affirmed that  ruminal  acetate  production  is  due  majorly  to  structural  carbohydrate fermentation  by  cellulolytic  bacteria,  while  propionate  production  is  due  to NFC  degradation  by  amylolytic  bacteria.  In  the  current  study,  structural carbohydrates were higher in control diet (PDS0) while NFC was higher in the PDS diets. Highest cellulolytic bacteria and lowest amylolytic bacteria numbers in the control diet than in the PDS diets further explained the result.
+## 2.7. Statistical Analysis
 
-Propionate  formation  can  be  considered  as  a  competitive  pathway  for CH4  production  (Moss  et al., 2000). Therefore, the increased ruminal propionate  concentration  of  the  PDS  diets  led  to  the  reduction  of  CH4 production.  Condensed  tannins  suppressed  CH4  production  by  redirecting hydrogen  from  the  CH4  pathway  to  produce  propionate  (Wanapat  et  al., 2014).  Similarly,  Animut  et  al.  (2008)  and  Olafadehan  and  Okunade  (2018) reported increased propionate and reduced CH4  production with  CTcontaining forage. Plant secondary metabolites, particularly CT and saponins, have  been  shown  to  reduce  protozoa  and  archea  methanogens,  resulting  in methanogenesis suppression (Wanapat et al., 2014; Gunun et al., 2016). It is plausible to aver that PDS can be used as an environmentally friendly feedstuff to abate enteric methane emission for sustainable environment and ruminant production.
+The collected data were subjected to the analysis of variance (ANOVA) using the GLM procedure of SAS (version 9.1) [17]. Adjusted Tukey test (p &lt; 0.05) was used to locate means that are significantly different. The statistical model used was:
 
-The  microbial  population  in  this  study  revealed  an  unequal  number among  the  typical  rumen  microbes  enumerated.  Bacterial  species  had  the largest  population  compared to other microbial populations. It is,  therefore, likely  that  bacteria  are  responsible  for  the  major  part  of  ruminal  feed degradation and are the main drivers behind the observed differences (Kamra, 2005). The highest bacteria population with PDS15 diet could be as a result of its  decreased  protozoa  population.  Decreased  ruminal  protozoa  population has been reported to result in an increase in bacterial population (Carberry et al., 2012; Isah et al., 2013) because protozoa engulf bacteria. This implies that CT  concentration  in  the  PDS15  diet  made  a  significant  reduction  in  the protozoa  population.  Since  both  protozoa  and  methanogens  are  closely related,  archaea  methanogens  population  was  also  lowest  in  PDS15.  Earlier studies (Makkar et al., 1995; Guo et al., 2008) reported reduction in protozoa and methanogens populations due to the effect of tannins.
+<!-- formula-not-decoded -->
 
-The increased ruminal fungi population with PDS15 could be due to the interaction  between  protozoa  and  fungal  zoospores.  Newbold  and  Hillman (1990)  also  noted  an  increase  in  the  numbers  of  fungal  zoospores  when protozoa were removed from the rumen. The increased bacterial and fungal populations  and  reduced  protozoal  and  methanogens  populations  with  the PDS15  diet  are  nutritionally  and  environmental  beneficial  due  to  improved
+where, Y ij = the response variable;
 
-Okunade S.A. et al.
+μ = overall mean;
 
-nutrient availability and utilisation for weight again and methane production abatement.
+a i = the ith treatment effect;
 
-Proteolytic bacterial population increased progressively with the increasing PDS level, with the highest population in PDS15 diet. This increase might be as a result of reduction in the number of protozoa as well as increase in  CP  intakes  of  the  PDS  diets,  as  opined  by  Nguyen  et  al.  (2017).  Also,  the inhibitory  effect  of  CT  may  lower  the  activities  of  cellulolytic  bacteria  and consequently allows the proteolytic bacteria to compete more effectively for nutrients, thus increasing their relative abundance (Wolin and Miller, 1988). On  the  contrary,  cellulolytic  bacterial  population  decreased  with  increasing PDS level,  which  could  be  as  a  result  of  many  factors  including  interactions between the cellulolytic and proteolytic bacterial populations and changes in digesta composition and rate of outflow from the rumen (Mcsweeney et al., 2001).
+bj = the effect of jth block; e ij = random error.
 
-Present  study  showed  that Entodinium is  the  most  dominant  protozoa genera followed by Holostrichs then Diplodinium ,  while Ophryoscolex was the least  in  population  in  the  rumen  of  the  lambs.  This  result  corroborates  the presence  of protozoal  population  found  in  rumen  liquor  of  sheep  fed Dicantium annulatum grass supplemented with Leucaena and Haedwickia tree leaves (Singh and Kundu, 2011). Both Diplodinium and Ophryoscolex general had  the  lowest  population,  in  agreement  with  the  observations  of  earlier workers (Mughetti et al., 2007) who noted Ophryoscolex in the range of 5.51 to 7.17% in rumen of sheep. Lowest populations of the protozoa genera in the PDS diets relative to the control diet could be explained by the reduction in the total protozoal count in the treatment diets, particularly in the PDS15 diet with highest CT concentration. Since protozoa are generally associated with fibre digestion, the highest populations of the protozoa genera in the control diet could be attributed to its pronounced dietary fibre level and consumption of the basal TST roughage diet. Generally, high forage diets favour cellulolytic microbes  and  make  them  preponderance  while  low-forage  diets  result  in lower  number  of  cellulolytic  microbes.  This  may  account  for  the  higher population of Entodinium and Diplodinium in the PDS0 (control diet) relative to the PDS diets. About 16 to 30% of total rumen \microbial fibre digestion was  done  by  protozoa  (Jabari  et  al.,  2014)  who  indicated  that  ability  of Entodinium,  Epidinium and Diplodinium to  degrade  cellulose,  hemicellulose and NDF was high. Ophryoscolex and Holotrichs are ciliate protozoa speculated to  help  in  fibre  digestion,  although  their  specific  role  in  rumen  ecosystem remains controversial (Newbold, 2015).
+## 3. Results and Discussion
 
-## CONCLUSION
+## 3.1. Chemical Compositions of Experimental Feeds
 
-Processed (toasted and seed coat decorticated) Daniellia oliveri seed meal, particularly  150  g/kg  inclusion  level,  improved  feed  utilisation,  ruminal
+The basal diet FMS contained a CP level (5.5) that could not satisfy the main-
 
-Okunade S.A. et al.
+DOI: 10.4236/ojas.2022.121006
 
-fermentation efficiency and growth performance, altered ruminal microbiota and reduced methane production. The seed meal can be used as an alternative protein source to replace up to 75% of groundnut cake in a supplementary concentrate  for  growing  lambs  consuming  low-quality  basal  diet.  Further research on complete replacement of processed Daniellia oliveri seed meal for groundnut cake is warranted.
+tenance  requirement  of  ruminants  and  the  NDF  and  ADF  contents  were  also higher than the level (55%) above which voluntary feed intake was limited [18], indicating a need for supplement feeds to complement this feed stuff (Table 2). On the other hand, GPH, concentrate mixture and its ingredients had moderate CP, relatively low level of NDF and ADF values qualify them as potential supplements in animal feeding system where poor quality fibrous feeds are the dominant feed resources.
 
-## REFERENCES
+## 3.2. Dry Matter and Nutrient Intakes
 
-- AOAC., 2000. Official Methods of Analysis. 17th Ed. Association of Analytical Chemists, Arlington, Virginia, Usa.
-- Animut,  G.,  R.,  Puchala,  A.  L.,  Goetsch,  A.K.,  Patra,  T.,  Sahlu,  V.H.,  Varel,  and Wells. J.,  2008.  Methane  emission  by  goats  consuming  different sources  of  condensed  tannins.  Animal  Feed  Science  Technology, 144:228-241.
-- Belanche, A., Alison, H., Smith, k., Griffith, G.W., Newbold, C.J., 2019.  A MultiKingdom  study  reveals  the  plasticity  of  the  rumen  microbiota  in response  to  a  shift  from  non-grazing  to  grazing  diets  in  sheep. Frontiers in Microbiology, 10 (22), doi: 10.3389/fmicb.2019.00122.
-- Benchaar,  C.,  Petit,  H.V.,  Berthiaume,  R.,  Ouellet,  D.R.,  Chiquette,  J.,  2003. Effects  of  essential  oil  supplements  on  ruminal  fermentation,  rumen microbial  populations  and  in  sacco  degradation  of  dry  matter  and nitrogen  in  the  rumen  of  lactating  dairy  cows.  Canadian  Journal  of Animal Science, 83, 637 -638.
-- Bodas,  R.,  Posado,  R.,  Daniel  José  Bartolomé,  D.J.,  Tabernero  de  Paz,  M.J., Herráiz, P., Rebollo, E., Gómez, L.J., García, J.J., 2015. Ruminal pH and temperature, papilla characteristics, and animal performance of fattening  calves  fed  concentrate  or  maize  silage-based  diets.  Chilean Journal of Agricultural Research, 74(3): 280-285.
-- Carberry, C.A., Kenny, D.A., Han, S., McCabe, M. S., Waters, S. M., 2012. Effect of phenotypic  residual  feed  intake  and  dietary  forage  content  on  the rumen  microbial  community  of  Beef  Cattle.  Applied  Environmental Microbiology, 78 (14): 4949 -4958.
-- Conte, G., Ciampolini, R., Cassandro, M., Lasagna, E., Calamari, L., Bernabucci, U., Abeni, F., 2018. Feeding and nutrition managementof heat-stressed dairy ruminants. Italian Journal of Animal Science, 17:3, 604-620.
-- D' agosto., M. T. and Carneiro, M. E. 1999. Evaluation of Lugol Solution used for Counting Rumen Ciliates. Revista Brasileira de Zoologia, 16 (3): 725 -729.
-- Dehority, B.A., Tirabasso. P.A. Grifo. A.P., 1989. Most-probable-number procedures for enumerating ruminal bacteria, including the simultaneous  estimation  of  total  and  cellulolytic  numbers  in  one medium. Applied Environmental Microbiology, 55: 2789 -2792.
+The results showed that FMS DM intake in the control group was significantly (p &lt; 0.0001) higher than in the supplemented groups. The highest FMS intake by sheep in the un-supplemented group as compared to supplemented ones might be due to the low CP and ME contents of FMS used, and as a result of this animals try to consume more FMS to meet their nutrient requirements. The result of the current study is similar to Mulat [19], Ayenew et al. [20] and Melese et al. [21] who reported higher FMS DM intake of sheep in the un supplemented than the supplemented treatments.
 
-Okunade S.A. et al.
+Although  the  CP  and  ME  contents  were  low  in  100%  GPH  treatment  (T5) than other treatments, sheep consumed lowest basal DM. The reason might be attributed to the higher fibrous nature of the GPH supplement resulted in gut fill which  consequently  might  reduce  DM  intake.  Generally,  the  current  study showed that as the level of GPH supplementation increases in the diet of sheep, the total DM intake depressed.
 
-- Gunun,  P.,  Wanapat,  M.,  Cherdthong,  A.,  2013.  Manipulation  of  ruminal fermentation and methane production by supplementation of rain tree pod  meal  containing  tannins  and  saponins  in  growing  dairy  steers. Journal of Animal Physiology and Animal Nutrition, 98(1): 112- 130.
-- Gunun, P., Wanapat, M., Gunun, N., Cherdthong, A., Sirilaophaisan, S., Kaewwongsa, W., 2016. Effects of condensed tannins in mao (Antidesma thwaitesianum Muell. Arg.) seed meal on rumen fermentation  characteristics  and  nitrogen  utilization  in  goats.  AsianAustralasian Journal of Animal Science, 29(8):111-119.
-- Guo, Y.Q., Liu, J.X., Lu, Y., Zhu, W.Y., Denman, S.E., McSweeney, C.S., 2008. Effect of tea saponin on methanogenesis, microbial community structure and expression of mcrA gene, in cultures of rumen microorganisms. Letters Applied Microbiology, 47, 421 -426.
-- Isah,  O.  A.,  Oguntuyo,  S.  A.,  Dawodu,  R.  O.,  Diya,  O.  O.,  Afolabi,  M.O.  and Omoniyi,  L.A.  2013.  Feed  Utilization,  Rumen  Parameters  (Rumen Microbial Profile of Goats Fed  Different Browse  Plants  with  P. purpuretumas Basal  Diet.  Pacific  Journal  of  Science  and  Technology, 14 (1): 397 -405.
-- Isah, O. A., Okunade, S. A., Aderinboye, R. Y. and Oyekunle, M. A. 2014. Rumen fermentation and microbial profile of Red Sokoto goats fed threshed sorghum  top  supplemented  with  browse  foliages.  Tropical  Animal Production Investigation, 17 (1), 67-73.
-- Isah,  O.  A.,  Okunade,  S.  A.,  Aderinboye,  R.Y.,  Olafadehan,  O.A.,  2015.  Effect of browse plant foliage supplementation on the performance of buckling goats fed threshed sorghum top basal diet. Tropical Animal Health and Production, 47(6):1027-1032.
-- Jabari,  S.,  Eslami,  M.,  Chaji,  M.,  Mohammadabadi,  T.,  Bojarpour,  M.,  2014. Comparison digestibility and protozoa population of Khuzestan water buffalo and Holstein cow. Veterinary Research Forum, 2014; 5:295 -300.
-- Joblin,  K.  N.,  1981.  Notes;  isolation, enumeration and maintenance of rumen anaerobic fungi in roll tubes. Applied and Environmental Microbiology, 42:1119 -1122.
-- Kamra, D. N., 2005. Rumen microbial ccosystem. Current Science, 89(1): 124135.
-- Kang,  S.,  Wanapat,  Pakdee,  P.,  Pilajun,  R.,  Cherdthong,  A.,  2012.  Effects  of energy level and Leucaena leucocephala leaf meal as a protein source on rumen fermentation efficiency and digestibility in swamp buffalo. Animal Feed Science and Technology, 174, 131 -139.
-- Kayol, L. T. and Borilek, G. O. D. 1995. Spectrophotometric Determination of Volatile Fatty Acids. Analytical Chemist, 34: 112-117.
+In case of total DM intake expressed as percent body weight (% BW), significantly lower intake was recorded in un supplemented group than supplemented ones,  and  significant  difference  was  not  observed  among  supplemented  treatments (Table 3). In contrary with the current result, Fentie and Solomon [22]
 
-Okunade S.A. et al.
+Table 2. Chemical compositions (% for DM and % DM for others) of experimental diets.
 
-- Kholif,  A.E.,  Gouda,  G.A.,  Olafadehan,  O.A.,  Abdo,  M.M.,  2018a.  Effects  of replacement  of  Moringa  oleifera  for  berseem  clover  in  the  diets  of Nubian goats on feed utilisation, and milk yield, composition and fatty acid profile. Animal, 12(5): 964 -972.
-- Kholif, A.E., Gouda, G.A., Anele, U.Y., Galyean, M.L., 2018b. Extract of moringa oleifera  leaves  improves  feed  utilization  of  lactating  nubian  goats. Small ruminant Research, 158: 69 -75.
-- Makkar,  H.P.S.,  Borowy,  N.K.,  Becker,  K.,  Degen,  A.,  1995.  Some  problems  in fiber determination of a tannin-rich forage (Acacia saligna leaves) and their implication in in vivo studies. Animal Feed Science and Technology, 55: 67-76.
-- McSweeney,  C.  S.,  Palmer,  B.,  Bunch,  R.,  Krause,  D.  O.,  2001.  Effect  of  the tropical forage calliandra on microbial protein synthesis and ecology in the rumen. Journal of Applied Microbiology, 90: 78-88.
-- Mebrahtu, T., 1992. Growth and photosynthesis of black locust. Proceedings of the  International  Conference  on  Black  Locust:  Biology,  Culture  and Utilization June 17-21 Michigan State University, East Lansing, MI.
-- Meissner, H. H., Viljoen, M. O., Van Niekerk, W.A., 1991. Intake and Digestibility by  Sheep  of  Anthephora,  Panicum,  Rhodes  and  Smuts  Finger  Grass Pastures. In: Proccedings of the IVth International Rangeland Congress, 22 -26 April 1991, Montpellier, France, pp. 648 -649.
-- MLA., 2007. Meat and Livestock Australia Limited. Assessed from: www.mla.com.au.
-- Moss, A. R., Jouany, J.P., Newbold, J., 2000. Methane production by ruminants: its contribution to global warming. Animal Research, 49:231-253.
-- Newbold, C. J., Hillman, K., 1990. The effect of ciliate protozoa on the turnover of bacterial and fungal protein in the rumen of sheep. Letters Applied Microbiology, 11, 100-102.
-- Newbold, C.J., de la Fuente, G., Belanche, A., Ramos-Morales, E., McEwan, N.R., 2015. The role of ciliate protozoa in the rumen. Frontiers in Microbiology, 6:1313. doi:10.3389/fmicb.2015.01313.
-- Nguyen, T.T.G., Wanapat, M., Phesatcha, K., Kang, S., 2017. Effect of inclusion of different levels of leucaenasilage on rumen microbial population and microbial  protein  synthesis  in  dairy  steers  fed  on  rice  straw.  AsianAustralasian Journal of Animal Science, 30(20): 181-186.
-- Ogimoto,  K.,  Imai,  S.,  1981.  Atlas  of  Rumen  Microbiology.  Japan  Scientific Society Press Tokyo, Japan.
-- Okunade,  S.A., Isah, O.A Aderinboye, R.Y. and Olafadehan, O.A. 2014a. Assessment of chemical composition and in vitro degradation profile of  some  guinea  savannah plants of  Nigeria.  Tropical  and  Subtropical Agroecosystems, 17: 529 -538.
+| Offer                  |   DM |   OM |   CP |   NDF |   ADF |
+|------------------------|------|------|------|-------|-------|
+| FMS (T1)               | 92.1 | 89.3 |  5.5 |  69.4 |  48   |
+| NSC                    | 94   | 88.1 | 30   |  27   |  22   |
+| WB                     | 89.3 | 96   | 16.3 |  40.3 |  10.1 |
+| T2 (CM 33% NSC 67% WB) | 91.2 | 93   | 21   |  36.2 |  14.4 |
+| T3 (CM 70%: GPH 30%)   | 91   | 94.2 | 20   |  43   |  23.2 |
+| T4 (CM 30%: GPH70%)    | 90   | 93   | 16.1 |  52   |  34   |
+| T5 (GPH)               | 90   | 96   | 14.4 |  59   |  43   |
 
-Okunade S.A. et al.
+DM = dry matter; OM = organic matter; CP = crude protein; NDF = nutrient detergent fiber; ADF = acid detergent fiber; GPH = grass pea hulls; NSC = noug seed cake; WB = wheat bran; T1 = FMS ad libitum (alone);T2 = FMS ad libitum + 400 g CM; T3 = FMS ad libitum + 280 g CM + 120 g GPH; T4 = FMS ad libitum + 280 g GPH + 120 g CM; T5 = FMS ad libitum + 400 g g GPH; FMS = finger millet straw; CM = concentrate mixture composed of WB and NSC at a ratio of 67:33, respectively.
 
-- Okunade,  S.A.,  Olafadehan,  O.A.,  Isah,  O.A.,  2014b.  Fodder  potential  and acceptability  of  selected  tree  leaves  by  goats.  Animal  Nutrition  and Feed Technology, 14, 489 -498.
-- Okunade,  S.  A.,  Isah,  O.  A.,  Oyekunle,  M.  A.,  Olafadehan,  O.  A.,  Makinde,  O.J., 2016.  Effects  of  supplementation  of  threshed  sorghum  top  with selected browse plant foliage on haematology and serum biochemical parameters of red sokoto goats. Tropical Animal Health and Production, 48(5): 979 -984.
-- Okunade, S. A., Olafadehan, O. A., Adebayo, B. J. and Omole, E. B., 2018b. Intake, growth performance and economics of production of yankasa rams fed ammoniated ensiled threshed sorghum top supplemented with varying concentrate regimes. Nigerian Society for Animal Production, 45(5):176 -183
-- Okunade, S.A., Olafadehan, O.A., 2019. Rolfe (Daniellia oliveri) seed meal as a protein  source  in  locally  produced  concentrates  for  lambs  fed  low quality basal diet. Journal of the Saudi Society of Agricultural Sciences, 18 83 -88
-- Olafadehan,  O.A.,  Adewumi,  M.K.,  Okunade,  S.A.  2014a.  Effects  of  feeding tannin-containing  forage  in  varying  proportion  with  concentrate  on the voluntary intake, haematological and biochemical indices of goats. Trakia Journal of Sciences, 12: 73-81.
-- Olafadehan, O.A., Okunade, S.A. and Njidda, A.A. 2014b. Evaluation of bovine rumen content as a feed ingredient for lambs. Tropical Animal Health and Production, 46: 939-945.
-- Olafadehan,  O.A.,  Adebayo,  O.F.,  2016.  Nutritional  evaluation  of  ammoniated threshed  sorghum  top  as  a  feed  for  growing  goats.  Tropical  Animal Health and Production, 48, 785 -791.
-- Olafadehan, O.A., Njidda, A.A.,  Okunade,  S.A.,  Adewumi,  M.K.,  Awosanmi,  K.J., Ijanmi, T.O., Raymond, A., 2016. Effects of feeding Ficus polita foliagebased  complete  rations  with  varying  forage:  concentrate  ratio  on performance  and  ruminal  fermentation  in  growing  goats.  Animal Nutrition and Feed Technology, 16, 373 -382.
-- Olafadehan,  O.A.,  Okunade,  S.A.,  2018.  Fodder  value  of  three  browse  forage species for growing goats, Journal of the Saudi Society for Agricultural Sciences, 17, 43 -50
-- Olafadehan, O.A., Okunade, S.A., Njidda, A.A. Kholif, A.E., Kolo, S.G., Alagbe, J.O., 2020.  Concentrate  replacement  with  Daniellia  oliveri  foliage  in  goat diet. Tropical Animal Health and Production, 52: 227 -233.
-- Opsi, F., Fortina, R., Tassone, S., Bodas, R. López, S. 2012. Effects of inactivated and  live cells of  saccharomyces  cerevisiae  on  in -vitro  ruminal fermentation diets with different forage: concentrate ratio. Journal of Agricultural Science, (150): 271 -283.
+DOI: 10.4236/ojas.2022.121006
 
-Okunade S.A. et al.
+Table 3. Daily DM and nutrient intakes of Washera sheep fed FMS basal diet and supplemented with different proportions of GPH and CM.
 
-- Patra, A.K., Saxena, J., 2011. Exploitation of dietary tannins to improve rumen metabolism and ruminant nutrition. Journal of the Science of Food and Agriculture, 91:24 - 37
-- Perdok, H. B., Leng, R. A., 1990. Effect of supplementation with protein meal on the growth of cattle given a basal diet of untreated or ammoniated rice straw. Asian-Australian Journal Animal Science 3: 269 -279.
-- Polshettiwar, S. A., Ganjiwale, R. O., Wadher,  S. J., Yeole, P. G., 2007. Spectrophotometric estimation of total tannins in some ayurvedic eye drops. Indian Journal of Pharmaceutical Science, 69 (4): 574- 576.
-- Raji,  M.  O.,  Adeleye,  O.  O.,  Osuolale,  S.  A.,  Ogungbenro,  S.  D.,  Ogunbode  A.  A., Abegunde, P. T., Mosobalaje, M. A., Oyinlola, O. O., Alimi, I. O., Habeeb, A.A.,  2014. Chemical composition and effect of mechanical processed of  African  yam  bean  on  carcas  characteristics  and  organs  weight  of broiler finisher. Asian Journal of Plant Science and Research, 4(2):1-6.
-- Singh, S., Kundu, S. S., 2011. Comparative rumen microbial population in sheep fed dicantium annulatum grass supplemented with Leucaena leucocephala  and  Hardwickia  binata  tree  leaves.  Livestock  Research Rural Development, 23(1)
-- Van  Soest,  P.  J.,  Robertson,  P.  J.  and  Lewis,  B.  A.  1991.  Methods  for  dietary fiber, neutral detergent fiber and  non-starch  polysaccharides in relation to animal nutrition. Journal of Dairy Science, 74, 3583 -3597.
-- Wahrmund,  J.  L.,  Ronchesel,  J.  R.,  Krehbiel,  C.  R.,  Goad,  C.  L.,  Trost,  S.  M., Richards,  C.  J.,  2012.  ruminal  acidosis  challenge  impact  on  ruminal temperature  in  feedlot  cattle.  Journal  of  Animal  Science,  90:  27942801.
-- Wanapat,  M.,  Chanthakhoun,  V.,  Phesatcha,  K.,  Kang,  S.,  2014.  Influence  of mangosteen peel powder as a source of plant secondary compounds on rumen microorganisms, volatile fatty acids, methane and microbial protein synthesis in swamp buffaloes. Livestock Science, 162: 126-133.
-- Wolin,  M.J.,  Miller,  T.L.,  1988.  Microbe -microbe  interactions.  In  The  rumen microbial ecosystem (ed. PN Hobson), pp. 343 -359. Elsevier Science.
+| Intakes            | Treatments   | Treatments   | Treatments   | Treatments   | Treatments   | SEM   |         |
+|--------------------|--------------|--------------|--------------|--------------|--------------|-------|---------|
+|                    | T1           | T2           | T3           | T4           | T5           |       | p       |
+| FMS (g/day)        | 552 a        | 489 bc       | 507 b        | 472 bc       | 451 c        | 21.5  | <0.0001 |
+| Supplement (g/day) |              | 400          | 400          | 400          | 400          | 0.0   |         |
+| Total DM(g/day)    | 552 c        | 889 ab       | 907 a        | 872 ab       | 851 b        | 21.5  | <0.0001 |
+| Total DM(%BW)      | 3.3 b        | 4.4 a        | 4.4 a        | 4.3 a        | 4.4 a        | 0.36  | <0.0001 |
+| OM(g/day)          | 491 c        | 805 ab       | 824 a        | 798 ab       | 783 b        | 19.1  | <0.0001 |
+| CP (g/day)         | 30 e         | 109 a        | 102 b        | 89 c         | 80 d         | 1.2   | <0.0001 |
+| NDF (g/day)        | 381 c        | 476 b        | 479 b        | 532 a        | 545 a        | 25.4  | <0.0001 |
+| ADF (g/day)        | 263 e        | 290 d        | 332 c        | 361 b        | 386 a        | 10.3  | <0.0001 |
+| ME (MJ/day)        | 4.0 c        | 9.6 ab       | 9.8 a        | 9.5 ab       | 9.2 b        | 0.22  | <0.0001 |
+| Substitution rate  |              | 0.16 ab      | 0.11 b       | 0.2 ab       | 0.25 a       | 0.058 | <0.0001 |
+
+a-e means with in a row not bearing common superscript are significantly different (p &lt; 0.05). OM = organic matter; CP = crude protein; NDF = neutral detergent fiber; ADF = acid detergent fiber; ME = metabolizable energy; SEM = standard error of mean; T1 = FMS ad libitum (control); T2 = FMS ad libitum + 400 g CM; T3 = FMS ad libitum + 280 g CM + 120 g GPH; T4 = FMS ad libitum + 120 g CM + 280 g GPH; T5 = FMS ad libitum + 400 g GPH; CM = concentrate mixture (67% WB + 33% NSC); GPH = grass pea hull; FMS = finger millet straw.
+
+and Birhanu et al. [23] reported higher total DM intake (as % BW) in unsupplemented than the supplemented Farta and Blackhead Ogaden sheep, respectively. However, the daily DM intake as percent BW (3.3% - 4.4% BW) in current study was within the range of 2% - 6% recommended by the ARC [11] for growing sheep.
+
+The CP intake of the experimental animals follows similar trend with the CP contents of the treatment diets in order of T2 &gt; T3 &gt; T4 &gt; T5 &gt; T1 (p &lt; 0.0001), whereas OM intake follows similar trend with total DM intake (Table 3). The reason for lower CP intake in T5 among the supplemented groups might be due to the fact that the lowest CP content of GPH (14%). However, the CP intake in all supplemented treatments can support 50 - 100 g/day daily gain for growing sheep weighing up to 30 kg [11]. The substitution rates in the current study was ranged  from  0.11  -  0.25  (Table  3).  Among  supplemented  treatments,  T5  had highest substitution rates. This was due to supplementation with a 100% GPH depressed basal diet intake because of high NDF and ADF content.
+
+## 3.3. Apparent Digestibility of Dry Matter and Nutrients
+
+The results indicated that significant treatment difference in apparent DM, OM, CP (p &lt; 0.0001) and NDF (p &lt; 0.01) digestibility between supplemented and un supplemented treatments (Table 4). Among supplemented groups, the apparent
+
+DOI: 10.4236/ojas.2022.121006
+
+Table 4. Apparent digestibility (%) of dry matter and nutrients of Washera sheep fed finger millet straw basal diet and supplemented with different proportion of grass pea hulls and concentrate mixture.
+
+| Digestibility              | Treatments   | Treatments   | Treatments   | Treatments   | Treatments   | SEM   | p       |
+|----------------------------|--------------|--------------|--------------|--------------|--------------|-------|---------|
+| Digestibility              | T1           | T2           | T3           | T4           | T5           | SEM   | p       |
+| DM                         | 65 c         | 81 ab        | 84 a         | 77 b         | 76 b         | 4.71  | <0.0001 |
+| OM                         | 52 b         | 76 a         | 76 a         | 76 a         | 75 a         | 6.05  | <0.0001 |
+| CP                         | 54 d         | 80 ab        | 83 a         | 69 b         | 65 c         | 6.87  | <0.0001 |
+| NDF                        | 53 b         | 68 a         | 65 ab        | 71 a         | 73 a         | 8.01  | 0.0065  |
+| ADF                        | 54 b         | 54 b         | 52 b         | 61 a         | 61 a         | 5.50  | 0.0436  |
+| Digestible nutrient intake |              |              |              |              |              |       |         |
+| DM                         | 358.8 d      | 720 b        | 762 a        | 671 c        | 647 c        | 16.96 | <0.0001 |
+| OM                         | 254 c        | 612 ab       | 626 a        | 607 ab       | 586 b        | 14.26 | <0.0001 |
+| CP                         | 16 e         | 87 a         | 84.7 b       | 61 c         | 52 d         | 0.72  | <0.0001 |
+| NDF                        | 210 e        | 326 d        | 311 c        | 379 b        | 398 a        | 10.07 | <0.0001 |
+| ADF                        | 141 d        | 156 d        | 173 c        | 220 b        | 234 a        | 5.79  | <0.0001 |
+
+a-e means with in a row not bearing common superscript are significantly different (p &lt; 0.05). OM = organic matter; CP = crude protein; NDF = neutral detergent fiber; ADF = acid detergent fiber; SEM = standard error of mean; T1 = FMS ad libitum (control); T2 = FMS ad libitum + 400 g CM; T3 = FMS ad libitum + 280 g CM + 120 g GPH; T4 = FMS ad libitum + 120 g CM + 280 g GPH; T5 = FMS ad libitum + 400 g GPH; CM = concentrate mixture (67% WB + 33% NSC); GPH = grass pea hull; FMS = finger millet straw.
+
+digestibility of DM in T3 was significantly higher (p &lt; 0.0001) as compared to T4 and  T5,  while  other  treatments  were  similar  among  each  other.  Numerically higher  digestibility  value  for  T3  supplemented  sheep  compared  to  the  rest  of sheep fed other the treatment diets indicate that T3 supplement had potential to improve the digestibility of the basal diet.
+
+The  DM  digestibility  of  the  supplemented  groups  in  the  present  study  was higher  than  61%  -  67%  reported  by  Ayenew et  al.  [20]  and  52%  -  55%  documented by Mulat [19] for sheep fed a basal diet of FMS and supplemented with different types of feeds. The DM digestibility in the present study was also higher than the values (67% - 68%) reported by Tesfaye and Solomon [24] in Afar sheep fed teff straw basal diet supplemented with graded levels of CM.
+
+The  higher  DM  digestibility  in  the  present  study  compared  to  the  previous studies might be attributed to the high CP content of the supplement diets and thereby high CP intake. Ammerman et al. [25] found that nitrogen intake was a major factor influencing the intake and digestibility of low quality roughages by ruminants. McDonald et al. [26] remarked that concentrate feed rich in protein promotes high microbial population which in turn facilitates rumen fermentation.
+
+DOI: 10.4236/ojas.2022.121006
+
+The apparent digestibility of CP was significantly higher (p &lt; 0.0001) for T3 compared  to  T4,  and  T5  in  the  supplemented  groups.  Moreover,  lower  (p  &lt; 0.0001)  CP  digestibility  value  was  recorded  for  T5  among  the  supplemented treatments.  The  results  in  the  apparent  digestibility  of  this  study  generally showed that replacing CM with GPH up to 30% level brought significantly higher digestibility of DM and CP and had equal potential with 100% CM for OM digestibility.  Over  all,  GPH  up  to  100%  replacement  level  of  CM  significantly improved DM and nutrient digestibility as compared to the control treatment.
+
+## 3.4. Body Weight Change and Feed Conversion Efficiency
+
+The body weight change (BWC), FBW, ADG and FCE were highly significant (p &lt; 0.001) in supplemented groups than unsupplemented one (Table 5). The ADG in T1 was -5.6 g/day, the reason was the poor CP content (5.5%) and high NDF (68.9%) and ADF (47.8%) contents of FMS, which is unable to fulfill the maintenance requirements of the sheep. Consequently, animals undergo substantial mobilization  of  body  reserves  to  meet  nutrient  requirements  for  basic  physiological processes at times when they are in negative protein and energy balance [26]. The body weight loss experienced in the present experiment was observed also in the previous studies [19] [20] [24] when they fed different types of crop residues alone for sheep.
+
+Among the  supplemented  treatments  significant  different  was  observed  for FBW, BWC, ADG and FCE (p &lt; 0.001) (Table 5). The highest (p &lt; 0.001) ADG values were recorded in T3 and T2 supplemented sheep. Similarly, the highest FCE was recorded in T3 and T2 compared to the rest treatments. The significant difference observed in performance among sheep receiving different treatment feeds reflects that supplements were vary in their potential to supply nutrients
+
+Table 5. Body weight change of Washera sheep fed finger millet straw as a basal diet and supplemented  with  different  proportion  of  grass  pea  hulls  and  concentrate  mixture.
+
+|            | Treatment   | Treatment   | Treatment   | Treatment   | Treatment   | SEM   | p       |
+|------------|-------------|-------------|-------------|-------------|-------------|-------|---------|
+| Parameters | T1          | T2          | T3          | T4          | T5          |       |         |
+| IBW(kg)    | 17.12       | 17.4        | 17.4 17.6   |             | 17.5        | 1.53  | 0.9897  |
+| FBW (kg)   | 16.6 c      | 22.8 ab     | 25 a        | 22.2 ab     | 20 b        | 1.51  | <0.0001 |
+| BWC(kg)    | -0.5 d      | 5.4 ab      | 7.6 a       | 4.6 b       | 2.5 c       | 1.25  | <0.0001 |
+| ADG(g/day) | -5.5 d      | 60.4 ab     | 84 a        | 51.1 b      | 27.6 c      | 13.93 | <0.0001 |
+| FCE        | -0.01 d     | 0.07 ab     | 0.09 a      | 0.06 b      | 0.03 c      | 0.02  | <0.0001 |
+
+a-d means with in a row not bearing common superscript are significantly different (p &lt; 0.05). IBW = body weight; BWC = body weight change; ADG = average daily gain; FCE = feed conversion efficiency; FBW = final body weight; SEM = standard error of mean; T1 = FMS ad libitum (control); T2 = FMS ad libitum + 400 g CM; T3 = FMS ad libitum + 280 g CM + 120 g GPH; T4 = FMS ad libitum + 120 g CM + 280 g GPH; T5 = FMS ad libitum + 400 g GPH; CM = concentrate mixture (67% WB + 33% NSC); GPH = grass pea hull; FMS = finger millet straw.
+
+DOI: 10.4236/ojas.2022.121006
+
+for improving the weight gains and FCE of the sheep. Differences in animal performance among treatments in this study were also consistent with differences in total DM intake and digestibility.
+
+The highest ADG (84 g/day) recorded in the current study was higher than 63, 64 and 49 g/day (the highest values in their study) reported by Ayenew et al. [20] and Hunegnaw and Birhan [27]. Comparable to the  present finding,  82 g/day ADG was observed by Fentie and Solomon [22] for Farta sheep supplemented with 300 g/day (WB and NSC 1:2 ratio, respectively) in hay basal diet. The variations  in  ADG  among  studies  might  be  due  to  difference  in  breed  type,  initial body weight of the experimental animals, amount and type of supplement feed, feed  processing  methods  and  the  environment  in  which  the  experiment  was conducted.
+
+Trends in BWC during the feeding trial indicated that Sheep in the un supplemented  treatment  lost  body  weight  throughout  the  experimental  period, while there was a consistent increase in body weight of animals in the supplemented groups (Figure 1).
+
+## 3.5. Partial Budget Analysis
+
+The highest net return (NR) was gained from T3 (231 Ethiopian birr (ETB)/sheep followed  by  T2  (121  ETB/sheep),  T4  (88  ETB/sheep)  and  T5  (80  ETB/sheep) (Table 6). The highest NR in this study was comparable to 203 ETB/sheep reported by Hunegnaw and Birhan [27], higher than Mesganaw [28],who reported 148 ETB/sheep fed grass hay ad libitum + 235 g field pea hull. The change in NR was also higher for T3, and the value of marginal rate of return (MRR) in the present study found to be positive for all supplemented treatments. It was highest for T3 followed by T2. The MRR indicated that an additional unit of 1 ETB per lambs cost increment resulted 1 birr and 2.15 for T3, 1.4 birr for T2, 1.35 birr benefit for T4 and T5.
+
+Figure 1. Body weight change over time of Washera sheep fed finger millet straw alone and supplemented with different proportion of grass pea hull and Concentrate mixture. T1 = FMS ad libitum (control); T2 = FMS ad libitum + 400 g CM; T3 = FMS ad libitum + 280 g CM + 120 g GPH; T4 = FMS ad libitum + 120 g CM + 280 g GPH; T5 = FMS ad libitum + 400 g GPH; CM = concentrate mixture (67% WB + 33% NSC); GPH = grass pea hull; FMS = finger millet straw.
+
+<!-- image -->
+
+Table 6. The partial budget analysis of Washera sheep fed finger millet straw and supplemented with different proportion of grass pea hulls and concentrate mixture.
+
+|                                      | Treatments   | Treatments   | Treatments   | Treatments   | Treatments   |
+|--------------------------------------|--------------|--------------|--------------|--------------|--------------|
+| Parameters                           | T1           | T2           | T3           | T4           | T5           |
+| Number of sheep                      | 5            | 5            | 5            | 5            | 5            |
+| Purchasing price of sheep            | 850          | 840          | 826          | 840          | 826          |
+| Total basal DMintake(kg/sheep)       | 61           | 54           | 55           | 51           | 49           |
+| Wheat bran DMintake(kg/sheep)        | -            | 24           | 17           | 7            | -            |
+| Noug seed cake DMintake(kg/sheep)    | -            | 12           | 8            | 4            | -            |
+| Grass pea hull DMintake(kg/sheep)    | -            |              | 11           | 25           | 36           |
+| Total concentrate DMintake(kg/sheep) | -            | 36           | 36           | 36           | 36           |
+| Cost of basal diet (ETB/head)        | 94.55        | 84           | 85           | 80           | 76           |
+| Cost of wheat bran (ETB/head)        | -            | 108          | 76           | 32           | -            |
+| Cost of noug seed cake (ETB/head)    | -            | 64           | 45           | 19           | -            |
+| Cost of grass pea hull (ETB/head)    | -            | -            | 48           | 111          | 158          |
+| Total cost of concentrate (ETB/head) |              | 172          | 168          | 162          | 158          |
+| Total variable cost (ETB/head)       | 95           | 259          | 253          | 242          | 235          |
+| Selling price of sheep (ETB/head)    | 835          | 1220         | 1310         | 1170         | 1140         |
+| Total return (ETB/head)              | -15          | 380          | 484          | 330          | 314          |
+| Net return(ETB/head                  | -110         | 121          | 231          | 88           | 80           |
+| Change in net return (ETB/head)      |              | 231          | 341          | 198          | 189          |
+| Change in total variable cost        |              | 164          | 158          | 147          | 140          |
+| Marginal rate of return(ΔNR/ΔTVC)    |              | 1.40         | 2.15         | 1.34         | 1.35         |
+
+ETB = Ethiopian birr; TR = total return; ΔNR = change in net return; ΔTVC = change in total variable cost; MRR = marginal rate of return; T1 = FMS ad libitum (control); T2 = FMS ad libitum + 400 g CM; T3 = FMS ad libitum + 280 g CM + 120 g GPH; T4 = FMS ad libitum + 120 g CM + 280 g GPH; T5 = FMS ad libitum + 400 g GPH; CM = concentrate mixture (67% WB + 33% NSC); GPH = grass pea hull; FMS = finger millet straw.
+
+## 4. Conclusion
+
+The results of this study indicated that supplementation of poor quality diet like FMS  with nonconventional feeds like GPH  together with conventional agro-industrial by-products (noug seed cake and wheat bran) improve both total DM and CP intakes, and CP digestibility, which in turn resulted in weight gain of  growing sheep. Grass pea hulls can replace wheat bran and noug seed cake mixture (mixed with 2:1 ratio in that order) up to 30% inclusion level and it was found to be recommendable for smallholder farmers.
+
+## Acknowledgements
+
+The authors are grateful to Dangila Woreda Office of Agriculture for material
+
+support and for covering laboratory fee. Deep appreciation is extended to Debre Birhan Agricultural Research Center for feed and feces chemical test.
+
+## Conflicts of Interest
+
+The authors declare no conflicts of interest regarding the publication of this paper.
+
+## References
+
+- [1] Galal,  E.S.E.  (1983)  Sheep  Germ  Plasm  in Ethiopia. Animal  Genetic  Resources  in formation, 1, 5-12. https://doi.org/10.1017/S1014233900000018
+- [2] CSA  (Central  Statistical  Agency)  (2021)  Livestock  and  Livestock  Characteristics. Volume II, Central Statistical Agency, Addis Ababa.
+- [3] FAO  (Food  and  Agriculture  Organization)  (1996)  Improving  Food  Security,  the Ignored Contribution of Livestock. FAO Yearbook Vol. 49, Production, Food and Agriculture Organization, Rome.
+- [4] Adugna, T. (2007) Feed Resource for Producing Export Quality Meat and Live stock in  Ethiopia.  Ethiopian  Sanitary  and  Phytosanitary  Standards  and  Livestock  Meat and Marketing Program (SPS-LMM), Texas Agricultural Experiment Station (TAES), Texas A&amp;M University System.
+- [5] Firew,  T.  and  Getnet,  A.  (2010)  Feed  Resource  Assessment  in  Amhara  Regional State, Ethiopia. Ethiopian Sanitary and Phyto-Sanitary Standards and Livestock and Meat Marketing Program, Addis Ababa.
+- [6] Hailu, A., Melaku S., Tamir, B. and Tassew, A. (2011) Body Weight and Car Cass Characteristics of Washera Sheep Fed Urea Treated Rice Straw Supplemented with Graded Levels of Concentrate Mix. Livestock Research for Rural Development, 23, No. 8.
+- [7] CSA (Central Statistical Agency) (2017) Central Statistical Agency Report on Area and Production of Major Crops (Private Peasant Holdings). Statistical Bulletin, 585, No. 2, Addis Abeba, Ethiopia.
+- [8] EEPA (Ethiopian Export Promotion Agency) (2004) A Report on Ethiopian Pulses Profile. Central Statistical Agency, Addis Ababa, Ethiopia.
+- [9] Fekede, F., Getu, K. and Getnet, A. (2015) Nutritional Qualities of Agro-Industrial By-Products  and  Local  Supplementary  Feeds  for  Dairy  Cattle  Feeding. Ethiopian Journal of Agriculture Science, 26, 3-26.
+- [10] Council for International Organizations of Medical Sciences and the International Council for Laboratory Animal Science (2012) International Guiding Principles for Biomedical Research Involving Animals. Council for International Organizations of Medical Sciences, Geneva.
+
+http://grants.nih.gov/grants/olaw/Guiding\_Principles\_2012.pdf
+
+- [11] ARC  (Agricultural  Research  Council)  (1980)  The  Nutrient  Requirements  Of  Ru minant Livestock. Technical Review by an Agricultural Research Council Working Party, Common Wealth Agricultural Bureau, Farnham Royal.
+- [12] Ponnampalam,  E.N.,  Dixon,  R.M.,  Hosking,  B.J.  and  Egan,  A.R.  (2004)  Intake, Growth and Carcass Characteristics of Lambs Consuming Low Digestible Hay and Cereal Grains. Animal Feed Science and Technology, 114, 31-41. https://doi.org/10.1016/j.anifeedsci.2003.12.005
+- [13] AFRC  (Agricultural  Food  and  Research  Council)  (1993)  Energy  and  Protein  Re
+
+DOI: 10.4236/ojas.2022.121006
+
+- quirements of Ruminants. An Advisory Manual Prepared by the Agricultural Food and  Research  Council  Technical  Committee  on  Responses  to  Nutrients.  CAB  In ternational, Wallingford.
+- [14] AOAC  (Association  of  Official  Analytical  Chemists)  (1990)  Official  Methods  of Analysis. 15th edition, Association of Official Analytical Chemists, Virginia.
+- [15] Van Soest, P.J. and Robertson, J.B. (1985) Analysis of Forages and Fibrous Foods: A Laboratory Manual For Animal Science. Cornell University, Ithaca.
+- [16] Upton, M. (1979) Farm Management in Africa: The Principle of Production and Planning. Oxford University Press, Oxford.
+- [17] SAS (Statistical Analysis Systems) (2008) Statistical Analysis Systems Institute Version 9.1, SAS Institute Inc., Cary.
+- [18] Van Soest, P.J. (1994) Nutritional Ecology of Ruminants. 2nd Edition, Cornell University Press, London. https://doi.org/10.7591/9781501732355
+- [19] Mulat, A. (2006) Effects of Supplementing Different Protein Sources on Feed Intake and  Live  Weight  Gain  of  Local  Sheep  Fed  on  Finger  Millet  (Eleucine  coracana) Straw Basal Diet. A MSc Thesis Presented to School of Animal and Range Sciences, Haramaya University, Haramaya.
+- [20] Ayenew, A., Berhan, T. and Solomon, M. (2012) Feed Intake, Digestibility and Live Weight  Change  of  Lambs  Fed  Finger  Millet  (Eleusine  Coracana)  Straw  Sup  plemented  with  Atella,  Noug  Seed  (Guizotia  abyssinica)  Cake  And  Their  Mixtures. Agricultura Tropica et Subtropica, 45, 105-111.
+- [21] Melese,  G.,  Berhan,  T.  and  Mengistu,  U.  (2014)  Effects  of  Supplementation  with Noug Seed Cake, Wheat Bran and Their Mixtures on Feed Intake, Digestibility and Live  Weight  Change  of  Washera  Sheep  Fed  Urea  Treated  Finger  Millet  Straw. Greener Journal of Agricultural Sciences, 4, 67-74.
+- [22] Fentie, B. and Solomon, M. (2008) Effects of Supplementation of Farta Sheep Fed Hay with Sole or Mixtures of Noug Seed Meal and Wheat Bran on Feed Intake, Digestibility  and  Body  Weight  Change. Tropical  Animal  Health  Production,  40, 597-606.
+- [23] Birhanu, T., Getachew, A. and Mengistu, U. (2013) Effect of Green Prosopis juliflora abissynica Cake Supplementation on Digestibility and Performance of Blackhead Ogaden Sheep Fed Hay as a Basal Diet. Star Journal Science Technology, 2, 38-47.
+- [24] Tesfaye,  H.  and  Solomon,  M.  (2009)  Feed  Intake,  Digestibility,  Body  Weight  and Carcass  Parameters  of  Afar  Rams  Fed  teff  (Eragrostis  tef)  Straw  Supple  mented With Graded Levels of Concentrate Mix. Journal of Tropical Animal Health Production, 41, 599-606.
+- [25] Ammerman, C., Verde, G., Moore, J., Burns, W. and Chicco, C. (1972) Biuret, Urea and  Natural  Proteins  as  Nitrogen  Supplements  for  Low  Quality  Roughage  for Sheep. Journal of Animal Science, 35, 121-127.
+- [26] McDonald, P., Edwards, R.A., Greenhalgh, J.F.D., Morgan, C.A., Sinclair, L.A. and Wilkinson,  R.G.  (2010)  Animal  Nutrition.  7th  Edition,  Prentice  Hall,  Pearson, London.
+- [27] Hunegnaw, A. and Berhan, T. (2016) Effects of Supplementation with Pigeon Pea (Cajanus  cajan),  Cowpea  (Vigna unguiculata)  and  Lablab  (Lablab  purpureus)  on Feed  Intake,  Body  Weight  Gain  And  Carcass  Characteristics  in  Wollo  Sheep  Fed Grass  Hay. International  Journal  of  Advanced  Research  in  Biological  Science,  3, 280-295.
+- [28] Mesganaw, A. (2014) Effect of Different Proportions of Field Pea (Pisum Sativum)
+
+DOI: 10.4236/ojas.2022.121006
+
+Hulls and Concentrate Mixture Supplementation on Feed Intake, Digestibly ity, and Body Weight Change and Carcass Parameters of Washera Sheep Fed a Basal Diet of Grass Hay. MSc Thesis, School of Animal and Range Sciences, Haramaya University, Haramaya.
+
+## Abbreviations
+
+ADF: Acid Detergent Fiber; ADG: Average Daily Gain; AFRC: Agricultural Food and Research Council; CP: Crude Protein; CSA: Central Statistical Agency; DM: Dry  Matter;  DMI:  Dry  Matter  Intake;  ETB:  Ethiopian  Birr;  EEPA:  Ethiopian Export Promotion Agency; FCE: Feed Conversion Efficiency; FMS: Finger Millet Straw; GPH: Grass Pea Hulls; ME: Metabolisable Energy; MRR: Marginal Rate of Return; NDF: Neutral Detergent Fiber; NSC: Noug Seed Cake; WB: Wheat Bran
