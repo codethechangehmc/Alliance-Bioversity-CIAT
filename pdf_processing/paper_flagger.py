@@ -14,16 +14,24 @@ from openai import OpenAI
 # Environment + OpenAI client setup
 # =============================================================================
 
-# This script is expected to live in the same project folder as pdf_main.py.
-# We load <repo_root>/.env so the script works no matter your current working dir.
-REPO_ROOT = Path(__file__).resolve().parent
+# This script lives one level below the repo root (alongside the other pipeline
+# scripts in the pdf_processing folder).  We load <repo_root>/.env so the
+# script works no matter your current working directory — matching the layout
+# used by table_extractor.py.
+REPO_ROOT = Path(__file__).resolve().parents[1]
 DOTENV_PATH = REPO_ROOT / ".env"
 load_dotenv(dotenv_path=DOTENV_PATH)
 
-# Optional: allow the script to keep running even if the key is missing.
+# Required: API key in environment (ideally via .env).
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise EnvironmentError(
+        "OPENAI_API_KEY not found in environment. "
+        f"Expected it in: {DOTENV_PATH}"
+    )
+
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano")
-client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # -----------------------------------------------------------------------------
 # Regexes for acceptable unit patterns.
@@ -162,12 +170,6 @@ def query_grazing_management(grazing_text: str) -> dict[str, str]:
     For papers that mention grazing, ask the model whether grazing management
     appears to be reported (e.g. hours grazed, species, pasture details, etc.).
     """
-    if client is None:
-        return {
-            "grazing_management_reported": "unknown",
-            "grazing_management_notes": f"OPENAI_API_KEY not found in environment. Expected it in: {DOTENV_PATH}",
-        }
-
     prompt = (
         "You are reviewing text from an animal-feeding paper. "
         "Answer whether grazing management is reported. "
@@ -183,7 +185,6 @@ def query_grazing_management(grazing_text: str) -> dict[str, str]:
     try:
         response = client.chat.completions.create(
             model=MODEL,
-            temperature=0,
             messages=[
                 {"role": "system", "content": "You extract structured information from scientific papers."},
                 {"role": "user", "content": prompt},

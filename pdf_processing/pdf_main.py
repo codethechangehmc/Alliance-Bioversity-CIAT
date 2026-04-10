@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 import json
 
-import pdf_to_markdown as docling_test
+import pdf_to_markdown 
 import mdtojson
 import json_editor
 import paper_flagger
