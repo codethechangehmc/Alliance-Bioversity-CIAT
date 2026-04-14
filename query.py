@@ -1,5 +1,5 @@
 ﻿# Import libraries
-import chromadb
+
 from openai import OpenAI
 import csv
 from datetime import datetime

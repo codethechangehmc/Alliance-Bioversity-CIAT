@@ -2,10 +2,10 @@ from pathlib import Path
 import os
 import json
 
-import pdf_to_markdown 
-import mdtojson
-import json_editor
-import paper_flagger
+from . import pdf_to_markdown 
+from . import mdtojson
+from . import json_editor
+from . import paper_flagger
 
 
 
