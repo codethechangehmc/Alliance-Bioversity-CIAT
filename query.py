@@ -31,6 +31,21 @@ D.Item: The name of the ingredient in the diet,
 D.Type: The ingredient type (Crop Byproduct, Crop Product, Forage Plants, Supplement, and Other Ingredients)
 D.Amount: The amount of the ingredient in the diet
 D.Unit.Amount: The units for the amount of that ingredient in the diet 
+Construct D.Unit.Amount using this order when available:
+[quantity unit]/[normalization basis]/[time basis]/[recipient scope]
+Examples:
+g/kg/day/individual
+% Body Mass/day/individual
+ad libitum/day/individual
+Normalization rules:
+- Use "/" as the separator between components.
+- Use lowercase for generic unit tokens (g, kg, mg, ml, l, day, week, month, experiment, individual).
+- Keep semantic basis phrases readable (e.g. body weight, body mass, metabolic weight, diet, ha, milk produced).
+- If the paper gives only a partial unit, output only the parts supported by the paper.
+- Do not invent missing components. Never use NA as a placeholder for a missing component — simply omit that component entirely.
+- If a component is not stated in the paper, skip it. For example, if only quantity and normalization basis are given, output g/kg not g/kg/NA or g/kg/NA/individual.
+- If no unit is given at all, output NA.
+
 DC.Is.Dry: whether the ingredient is dry
 D.Ad.lib: whether it was fed ad libitum.
 Notes: if available, more information about the ingredient, such as where it was sourced, how it was processed, etc. Wrap this in double quotes.
@@ -137,6 +152,9 @@ The data:
             continue
 
         output_df.insert(loc=0, column="B.Code", value=PAPER_ID)
+
+        find_kg = output_df[output_df['D.Unit.Amount'].str.contains('kg', case=False, na=False)]
+
         output_dfs.append(output_df)
 
     if output_dfs:
