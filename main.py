@@ -1,4 +1,4 @@
-﻿from pdf_processing import main as pdf_main
+﻿from pdf_processing import pdf_main
 from query import run_query
 
 
