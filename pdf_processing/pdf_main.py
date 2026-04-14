@@ -2,49 +2,61 @@ from pathlib import Path
 import os
 import json
 
-import pdf_to_markdown as docling_test
+import pdf_to_markdown 
 import mdtojson
 import json_editor
+import paper_flagger
+
+
+
+def extract_pdf_id(pdf_path: Path) -> str:
+    """Use the substring before the first dash in the PDF stem as the PDF ID."""
+    return pdf_path.stem.split("-", 1)[0]
+
 
 
 def process_pdf(pdf_path: Path, output_dir: Path):
     """
-    Run the full pipeline for a single PDF:
-    1. docling_test.run -> creates output.md in output_dir
-    2. mdtojson.convert_md_to_json -> output_dir/<basename>.json
-    3. json_editor.clean_json -> output_dir/cleaned_<basename>.json
+    Run the per-PDF portion of the pipeline and write outputs into `output_dir`.
+
+    Outputs per PDF:
+      - output.md
+      - <pdf_id>.json
+      - cleaned_<pdf_id>.json
     """
-    print(f"\n=== Processing PDF: {pdf_path} ===")
+    pdf_id = extract_pdf_id(pdf_path)
+    print(f"\n=== Processing PDF: {pdf_path} (id={pdf_id}) ===")
 
     if not pdf_path.exists():
         raise FileNotFoundError(f"PDF not found: {pdf_path}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1. Run Docling; assumes docling_test.run writes 'output.md' to output_dir
-    docling_test.run(str(pdf_path), output_dir)
+    # 1) PDF -> Markdown
+    pdf_to_markdown.run(source=pdf_path, output_dir=output_dir)
 
-    # 2. Convert output.md -> JSON named after the PDF
     md_file = output_dir / "output.md"
     if not md_file.exists():
         raise FileNotFoundError(f"Expected markdown file not found: {md_file}")
 
-    json_filename = f"{pdf_path.stem}.json"
-    json_file = output_dir / json_filename
+    # 2) Markdown -> JSON, named by PDF ID
+    json_file = output_dir / f"{pdf_id}.json"
     mdtojson.convert_md_to_json(md_file, json_file)
 
-    # 3. Clean JSON and write cleaned_<name>.json
+    # 3) JSON -> cleaned JSON, named by PDF ID
     with open(json_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     cleaned_data = json_editor.clean_json(data)
-    cleaned_filename = f"cleaned_{pdf_path.stem}.json"
-    cleaned_file_path = output_dir / cleaned_filename
-
-    with open(cleaned_file_path, "w", encoding="utf-8") as cleaned_file:
-        json.dump(cleaned_data, cleaned_file, indent=4, ensure_ascii=False)
+    cleaned_file_path = output_dir / f"cleaned_{pdf_id}.json"
+    with open(cleaned_file_path, "w", encoding="utf-8") as f:
+        json.dump(cleaned_data, f, indent=4, ensure_ascii=False)
 
     print("Cleaning complete! Cleaned file saved as", cleaned_file_path)
+
+    # 4) cleaned JSON -> flag analysis row
+    row = paper_flagger.analyze_json_file(cleaned_file_path)
+    print("Flag analysis complete for", row["paper_id"])
 
 
 
@@ -54,7 +66,6 @@ def main() -> None:
       - processes every *.pdf in ./pdfs/
       - writes intermediate artifacts to ./finished_data/
     """
-    # Resolve directories relative to this script (works from any current working dir).
     parent_dir = Path(__file__).parent.resolve()
     pdfs_dir = parent_dir / "pdfs"
     output_dir = parent_dir / "finished_data"
@@ -63,13 +74,6 @@ def main() -> None:
     print("PDFs directory:   ", pdfs_dir)
     print("Output directory: ", output_dir)
 
-    # # ---- OPTION A: process a specific PDF (your example) ----
-    # # Uncomment this block if you ONLY want to process that one file.
-    # specific_pdf = pdfs_dir / "bo1005-leketa-2019.pdf"
-    # process_pdf(specific_pdf, output_dir)
-    # return
-
-    # ---- OPTION B: process ALL PDFs in ./pdfs/ ----
     if not pdfs_dir.exists():
         raise FileNotFoundError(f"PDFs directory not found: {pdfs_dir}")
 
@@ -78,7 +82,11 @@ def main() -> None:
         process_pdf(pdf_path, output_dir)
         processed_count += 1
 
+    summary_csv = output_dir / "paper_flags_summary.csv"
+    paper_flagger.analyze_json_directory(output_dir, summary_csv)
+
     print(f"=== Done. Processed {processed_count} PDF(s). ===")
+    print("Paper flag summary saved to", summary_csv)
 
 
 
