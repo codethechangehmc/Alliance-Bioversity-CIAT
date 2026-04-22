@@ -1,0 +1,4 @@
+paper_id,total_accuracy,A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,has_acceptable_units,mentions_grazing,grazing_terms_found,grazing_management_reported,grazing_management_notes,weight_mean,weight_stdev,weight_units,weight_info
+BO1005,49.11,81.25,31.25,31.25,100.0,0.0,87.5,12.5,True,True,grazing; pasture; pastures,false,"No grazing management details are reported; goats were housed individually and fed a total mixed ration (no grazing hours, pasture species, stocking rate, or rotational grazing information).",,,,
+JO1013,65.71,57.14,45.71,57.14,100.0,100.0,100.0,0.0,True,False,,,,13.7,0.1,kg,The subject animals in the experiment were Yankasa male lambs with a body weight of 13.70 ± 0.1 kg.
+JO1036,30.0,0.0,30.0,40.0,40.0,0.0,0.0,100.0,True,True,grazing; pastures,false,"The study used housed sheep fed finger millet straw with supplements; no grazing, pasture details, stocking rate, or rotational grazing information reported.",,,,

@@ -3,7 +3,8 @@ pdfs/*
 .env
 *.csv
 pdf_processing/finished_data/*
-pdf_processing/__pycache__/*
+__pycache__/
+**/__pycache__/
 pdf_processing/pdfs/*
 
 exploratory_transformers.py
