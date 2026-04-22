@@ -100,10 +100,13 @@ def run_llm_csv_extraction(
     output_csv="all_outputs.csv"
 ):
     paper_ids = list_paper_ids(pdf_path)
+    total_count = len(paper_ids)
+    processed_count = 0
     output_dfs = []
 
     for PAPER_ID in paper_ids:
-        print(f"Currently working on {PAPER_ID}")
+        processed_count += 1
+        print(f"Currently working on paper {processed_count}/{total_count}: {PAPER_ID}")
 
         json_file = get_cleaned_json_file(cleaned_pdfs_path, PAPER_ID)
         if json_file is None:
@@ -153,7 +156,7 @@ The data:
 
         output_df.insert(loc=0, column="B.Code", value=PAPER_ID)
 
-        find_kg = output_df[output_df['D.Unit.Amount'].str.contains('kg', case=False, na=False)]
+        # find_kg = output_df[output_df['D.Unit.Amount'].str.contains('kg', case=False, na=False)]
 
         output_dfs.append(output_df)
 
