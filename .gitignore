@@ -3,9 +3,12 @@ pdfs/*
 .env
 *.csv
 pdf_processing/finished_data/*
+pdf_processing/pdfs/*
+PDF_processing_README.html
+pdf_processing/trash/
 __pycache__/
 **/__pycache__/
-pdf_processing/pdfs/*
+*.pyc
 
 exploratory_transformers.py
 all_outputs.csv

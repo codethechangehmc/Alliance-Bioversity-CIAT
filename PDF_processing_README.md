@@ -5,7 +5,8 @@ This folder contains a simple pipeline that:
 - converts the PDF to text
 - organizes the text into sections (e.g. abstract, methodology, etc.)
 - cleans the text 
-- extracts **tables** and saves them as **CSV files** 
+- creates a summary **CSV** that flags papers for acceptable units and grazing-related mentions
+- optionally extracts **tables** and saves them as **CSV files** 
 
 
 ---
@@ -15,7 +16,13 @@ This folder contains a simple pipeline that:
 1) **Put PDFs in `pdfs/`**  
 2) Run `python pdf_main.py`  
 3) Find results in `finished_data/`, especially:
-   - `finished_data/tables/<pdf_name>/*.csv`
+   - `finished_data/cleaned_<pdf_id>.json`
+   - `finished_data/paper_flags_summary.csv`
+
+### Optional Table Extraction
+If you also want CSV files from tables, run `table_extractor.py` after running `pdf_main.py`.
+Then find results in:
+- `finished_data/tables/<pdf_name>/*.csv`
 
 ---
 
@@ -28,6 +35,7 @@ pdf_main.py
 pdf_to_markdown.py
 mdtojson.py
 json_editor.py
+paper_flagger.py
 table_extractor.py
 requirements.txt
 ```
@@ -112,8 +120,27 @@ From the repo folder:
 python pdf_main.py
 ```
 
-### 3) Find Your CSVs
+### 3) Find Your Outputs
 Look in:
+
+```
+finished_data/
+```
+
+You'll see files like:
+- `output.md`
+- `<pdf_id>.json`
+- `cleaned_<pdf_id>.json`
+- `paper_flags_summary.csv`
+
+### Optional Table Extraction
+If you want CSV files from tables, run:
+
+```bash
+python table_extractor.py
+```
+
+Then look in:
 
 ```
 finished_data/tables/<pdf_name>/
@@ -127,19 +154,20 @@ You'll see files like:
 ### Debugging Tips
 - If the script runs but produces no output, check that your PDF filenames end in lowercase `.pdf` (not `.PDF`).
 - Processing time depends on the size and number of PDFs. Large files or batches may take several minutes.
-- If the pipeline stops partway through, check the terminal output for error messages — these usually indicate which step failed (e.g., conversion, cleaning, or table extraction).
+- If the pipeline stops partway through, check the terminal output for error messages — these usually indicate which step failed (e.g., conversion or cleaning).
 - If you are re-running the pipeline on the same PDFs, check whether old output files in `finished_data/` are being overwritten as expected, or whether you need to clear the folder first.
 
 ---
 
 ## How the Pipeline Works: A Guide to Each File
 
-### `pdf_main.py` — Runs the Whole Pipeline for Every PDF
+### `pdf_main.py` — Runs the Core Pipeline for Every PDF
 **Input:** all `*.pdf` files in `pdfs/`  
-**Outputs:** intermediate files in `finished_data/` + final CSVs in `finished_data/tables/`
+**Outputs:** intermediate files in `finished_data/`
 
 What it does:
 - loops over PDFs in `pdfs/`
+- uses the PDF ID (the string up to the first dash in the filename) when naming JSON outputs
 - runs the steps below in order for each PDF
 
 **Code at a glance:**
@@ -148,7 +176,7 @@ for pdf in pdfs:
     pdf_to_markdown(pdf)
     md_to_json()
     clean_json()
-    extract_tables()
+    analyze_flags()
 ```
 
 ---
@@ -172,7 +200,7 @@ md = result.document.export_to_markdown()
 
 ### `mdtojson.py` — Turns Markdown into Structured JSON (Split into Sections)
 **Input:** `finished_data/output.md`  
-**Output:** `finished_data/<pdf_name>.json`
+**Output:** `finished_data/<pdf_id>.json`
 
 What it does:
 - splits the Markdown into sections at headings like `## Results`
@@ -184,12 +212,24 @@ What it does:
 ---
 
 ### `json_editor.py` — Cleans Up the JSON Text
-**Input:** `finished_data/<pdf_name>.json`  
-**Output:** `finished_data/cleaned_<pdf_name>.json`
+**Input:** `finished_data/<pdf_id>.json`  
+**Output:** `finished_data/cleaned_<pdf_id>.json`
 
 What it does:
 - fixes common PDF artifacts (e.g., stray hyphens, broken line endings, garbled characters)
 - normalizes whitespace so later steps behave more reliably
+
+---
+
+### `paper_flagger.py` — Flags Papers for Acceptable Units and Grazing Mentions
+**Input:** `finished_data/cleaned_<pdf_id>.json`  
+**Output:** `finished_data/paper_flags_summary.csv`
+
+What it does:
+- combines the cleaned text into one input
+- flags whether each paper contains acceptable unit patterns
+- flags whether each paper mentions grazing-related words such as `grazing`, `graze`, or `grazed`
+- writes one summary CSV row per paper using the PDF ID
 
 ---
 

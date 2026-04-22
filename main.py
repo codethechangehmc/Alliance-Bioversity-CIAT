@@ -1,5 +1,10 @@
-﻿from pdf_processing import main as pdf_main
+﻿from pdf_processing import pdf_main
 from query import run_query
+from evaluate import evaluate
+
+QUERIED_CSV_PATH = "all_outputs.csv"
+VALIDATION_DATA_PATH = "validation.csv"
+OUTPUT_CSV_PATH = "evaluation_results.csv"
 
 
 def main():
@@ -10,6 +15,9 @@ def main():
     print("=== Starting LLM query pipeline ===")
     run_query()
     print("=== LLM query processing done ===\n")
+
+    print("=== Starting evaluation ===")
+    evaluate(QUERIED_CSV_PATH, VALIDATION_DATA_PATH)
 
 
 if __name__ == "__main__":
