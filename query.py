@@ -45,13 +45,34 @@ Normalization rules:
 - Do not invent missing components. Never use NA as a placeholder for a missing component — simply omit that component.
 - If no unit is given at all, output NA.
 
-DC.Is.Dry: whether the ingredient is dry
-D.Ad.lib: whether it was fed ad libitum.
+DC.Is.Dry: whether the ingredient is dry (true, false).
+D.Ad.lib: whether it was fed ad libitum (true, false).
 Notes: if available, more information about the ingredient, such as where it was sourced, how it was processed, etc. Wrap this in double quotes.
 If information is not given for a specific value, write NA. 
 Return only the table in csv format without any extra response.
 """
 
+example_output = """
+```csv
+B.Code,A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
+BO1005,TMRL,Yellow maize meal,Crop Product,22.0,%,Yes,Yes,Purchased on the local market.
+BO1005,TMRL,Eragrostis curvula,Forage Plants,18.0,%,Yes,Yes,Purchased on the local market.
+BO1005,TMRL,Leucaena leucocephala,Forage Plants,25.0,%,Yes,Yes,"Previously harvested three times, dried and milled."
+BO1005,TMRL,Wheat bran,Crop Byproduct,8.0,%,Yes,Yes,
+BO1005,TMRL,Cottonseed oil cake meal,Supplement,9.0,%,Yes,Yes,Part of the oil seed cake blend.
+BO1005,TMRL,Sunflower oil cake meal,Supplement,9.0,%,Yes,Yes,Part of the oil seed cake blend.
+BO1005,TMRL,Molasses meal,Other Ingredients,7.0,%,Yes,Yes,
+BO1005,TMRL,Mineral mix,Other Ingredients,2.0,%,Yes,Yes,"Included limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix."
+BO1005,OSCM,Yellow maize meal,Crop Product,27.0,%,Yes,Yes,Purchased on the local market.
+BO1005,OSCM,Eragrostis curvula,Forage Plants,30.0,%,Yes,Yes,Purchased on the local market.
+BO1005,OSCM,Wheat bran,Crop Byproduct,8.0,%,Yes,Yes,
+BO1005,OSCM,Cottonseed oil cake meal,Supplement,11.0,%,Yes,Yes,Part of the oil seed cake blend.
+BO1005,OSCM,Sunflower oil cake meal,Supplement,11.0,%,Yes,Yes,Part of the oil seed cake blend.
+BO1005,OSCM,Full fat soybean meal,Supplement,4.0,%,Yes,Yes,Used as a source of protein.
+BO1005,OSCM,Molasses meal,Other Ingredients,7.0,%,Yes,Yes,
+BO1005,OSCM,Mineral mix,Other Ingredients,2.0,%,Yes,Yes,"Included limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix."
+```
+"""
 
 def list_paper_ids(pdf_path=PDF_PATH):
     if not os.path.exists(pdf_path):
@@ -119,18 +140,19 @@ def run_llm_csv_extraction(
 
         client = OpenAI()
 
-        system_prompt = f"""
-{pre_prompt}
---------------------
-The data:
-{cleaned_pdf_text}
-"""
+        user_query = f"""
+            {user_query}
+            --------------------
+            The data:
+            {cleaned_pdf_text}
+        """
 
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_query}
+                {"role": "system", "content": pre_prompt},
+                {"role": "user", "content": user_query},
+                {"role": "assistant", "content": example_output},
             ]
         )
 
