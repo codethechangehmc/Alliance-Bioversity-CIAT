@@ -23,7 +23,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise EnvironmentError(f"OPENAI_API_KEY not found. Expected it in: {REPO_ROOT / '.env'}")
 
-MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano")
+MODEL = os.getenv("OPENAI_MODEL", "gpt-5.4-nano")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 CLEANED_PDFS_DIR = REPO_ROOT / "pdf_processing" / "finished_data"
@@ -347,7 +347,7 @@ def run_weight_qaqc(all_outputs_csv: Path, cleaned_pdfs_dir: Path) -> pd.DataFra
         section_text = _build_section_text(data)
 
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-5.4-nano",
             messages=[
                 {"role": "system", "content": f"{WEIGHT_PRE_PROMPT}\n--------------------\nThe data:\n{section_text}"},
                 {"role": "user", "content": WEIGHT_QUERY},
