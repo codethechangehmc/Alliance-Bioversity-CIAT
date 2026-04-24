@@ -39,11 +39,10 @@ g/kg/day/individual
 ad libitum/day/individual
 Normalization rules:
 - Use "/" as the separator between components.
-- Use lowercase for generic unit tokens (g, kg, mg, ml, l, day, week, month, experiment, individual).
+- Use lowercase for generic unit tokens (g, kg, mg, ml, l, day, week, month, experiment, animal).
 - Keep semantic basis phrases readable (e.g. body weight, body mass, metabolic weight, diet, ha, milk produced).
 - If the paper gives only a partial unit, output only the parts supported by the paper.
-- Do not invent missing components. Never use NA as a placeholder for a missing component — simply omit that component entirely.
-- If a component is not stated in the paper, skip it. For example, if only quantity and normalization basis are given, output g/kg not g/kg/NA or g/kg/NA/individual.
+- Do not invent missing components. Never use NA as a placeholder for a missing component — simply omit that component.
 - If no unit is given at all, output NA.
 
 DC.Is.Dry: whether the ingredient is dry
