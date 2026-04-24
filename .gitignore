@@ -5,6 +5,11 @@ pdfs/*
 pdf_processing/finished_data/*
 pdf_processing/__pycache__/*
 pdf_processing/pdfs/*
+pdf_processing/README.md
+
+__pycache__
+**__pycache__
+_.pyc
 
 exploratory_transformers.py
 all_outputs.csv
