@@ -3,7 +3,7 @@ import pandas as pd
 from rapidfuzz import fuzz
 
 QUERIED_CSV_PATH = "all_outputs.csv"
-VALIDATION_DATA_PATH = "validations.csv"
+VALIDATION_DATA_PATH = "validation.csv"
 OUTPUT_CSV_PATH = "evaluation_results.csv"
 
 
