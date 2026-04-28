@@ -17,6 +17,8 @@ CLEANED_PDFS_PATH = "pdf_processing/finished_data"
 # environment
 load_dotenv()
 
+chosen_model = "gpt-4o-mini" 
+
 pre_prompt = """ 
 You are a helpful assistant. You answer questions about diet information in livestock management scientific literature. 
 But you only answer based on knowledge I'm providing you. You don't use your internal knowledge and you don't make things up.
@@ -54,23 +56,24 @@ Return only the table in csv format without any extra response.
 
 example_output = """
 ```csv
-B.Code,A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
-BO1005,TMRL,Yellow maize meal,Crop Product,22.0,%,Yes,Yes,Purchased on the local market.
-BO1005,TMRL,Eragrostis curvula,Forage Plants,18.0,%,Yes,Yes,Purchased on the local market.
-BO1005,TMRL,Leucaena leucocephala,Forage Plants,25.0,%,Yes,Yes,"Previously harvested three times, dried and milled."
-BO1005,TMRL,Wheat bran,Crop Byproduct,8.0,%,Yes,Yes,
-BO1005,TMRL,Cottonseed oil cake meal,Supplement,9.0,%,Yes,Yes,Part of the oil seed cake blend.
-BO1005,TMRL,Sunflower oil cake meal,Supplement,9.0,%,Yes,Yes,Part of the oil seed cake blend.
-BO1005,TMRL,Molasses meal,Other Ingredients,7.0,%,Yes,Yes,
-BO1005,TMRL,Mineral mix,Other Ingredients,2.0,%,Yes,Yes,"Included limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix."
-BO1005,OSCM,Yellow maize meal,Crop Product,27.0,%,Yes,Yes,Purchased on the local market.
-BO1005,OSCM,Eragrostis curvula,Forage Plants,30.0,%,Yes,Yes,Purchased on the local market.
-BO1005,OSCM,Wheat bran,Crop Byproduct,8.0,%,Yes,Yes,
-BO1005,OSCM,Cottonseed oil cake meal,Supplement,11.0,%,Yes,Yes,Part of the oil seed cake blend.
-BO1005,OSCM,Sunflower oil cake meal,Supplement,11.0,%,Yes,Yes,Part of the oil seed cake blend.
-BO1005,OSCM,Full fat soybean meal,Supplement,4.0,%,Yes,Yes,Used as a source of protein.
-BO1005,OSCM,Molasses meal,Other Ingredients,7.0,%,Yes,Yes,
-BO1005,OSCM,Mineral mix,Other Ingredients,2.0,%,Yes,Yes,"Included limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix."
+A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
+Control,Concentrate,NA,60,% Diet/day/individual,NA,NA
+MA20,Chlorella vulgaris,Supplement,1,% Diet/day/individual,NA,NA
+MA20,Concentrate,NA,48,% Diet/day/individual,NA,NA
+MA20,Moringa oleifera Ensiled,Forage Plants,11,% Diet/day/individual,NA,NA
+MA40,Chlorella vulgaris,Supplement,1,% Diet/day/individual,NA,NA
+MA40,Concentrate,NA,36,% Diet/day/individual,NA,NA
+MA40,Cotton Seed Cake,Crop Byproduct,250,g/kg/day/individual,NA,NA
+MA40,Lime,Supplement,20,g/kg/day/individual,NA,NA
+MA40,Maize,Crop Product,300,g/kg/day/individual,NA,NA
+MA40,Moringa oleifera Ensiled,Forage Plants,23,% Diet/day/individual,NA,NA
+MA40,Rice Bran,Crop Byproduct,30,g/kg/day/individual,NA,NA
+MA40,Rice Straw,Crop Byproduct,40,% Diet/day/individual,NA,NA
+MA40,Salt,Other Ingredients,10,g/kg/day/individual,NA,NA
+MA40,Unspecified Molasses,Crop Byproduct,30,g/kg/day/individual,NA,NA
+MA40,Urea,Supplement,10,g/kg/day/individual,NA,NA
+MA40,Water,Other Ingredients,NA,ad libitum,NA,Yes
+MA40,Wheat Bran,Crop Byproduct,350,g/kg/day/individual,NA,NA
 ```
 """
 
@@ -148,7 +151,7 @@ def run_llm_csv_extraction(
         """
 
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=chosen_model,
             messages=[
                 {"role": "system", "content": pre_prompt},
                 {"role": "user", "content": user_query},
