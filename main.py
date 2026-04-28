@@ -1,6 +1,7 @@
 ﻿from pdf_processing import pdf_main
 from query import run_query
 from evaluate import evaluate
+from outputs import paper_info_flagger
 
 QUERIED_CSV_PATH = "all_outputs.csv"
 VALIDATION_DATA_PATH = "validation.csv"
@@ -18,6 +19,11 @@ def main():
 
     print("=== Starting evaluation ===")
     evaluate(QUERIED_CSV_PATH, VALIDATION_DATA_PATH)
+    print("=== Evaluation done ===\n")
+
+    print("=== Starting paper info flagging ===")
+    paper_info_flagger.main()
+    print("=== Paper info flagging done ===\n")
 
 
 if __name__ == "__main__":

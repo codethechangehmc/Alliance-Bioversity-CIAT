@@ -16,7 +16,7 @@ from rapidfuzz import fuzz
 # Config
 # =============================================================================
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(dotenv_path=REPO_ROOT / ".env")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
