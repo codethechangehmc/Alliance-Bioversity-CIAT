@@ -4,6 +4,11 @@ pdfs/*
 *.csv
 pdf_processing/finished_data/*
 pdf_processing/pdfs/*
+pdf_processing/README.md
+
+__pycache__
+**__pycache__
+_.pyc
 PDF_processing_README.html
 pdf_processing/trash/
 __pycache__/
@@ -13,3 +18,4 @@ __pycache__/
 exploratory_transformers.py
 all_outputs.csv
 validation.csv
+
