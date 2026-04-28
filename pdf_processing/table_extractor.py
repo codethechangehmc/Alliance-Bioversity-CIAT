@@ -32,7 +32,7 @@ if not OPENAI_API_KEY:
     )
 
 # Optional: allow overriding model via .env
-MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano")
+MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 # Create one client and reuse it (avoids reinitializing per call).
 client = OpenAI(api_key=OPENAI_API_KEY)

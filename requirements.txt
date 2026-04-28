@@ -4,7 +4,9 @@ numpy
 pandas
 chromadb
 openai
-dotenv
+python-dotenv
 langchain
 pypdf
-
+rapidfuzz
+docling
+ftfy

@@ -89,7 +89,7 @@ Create a file named **`.env`** in the **same folder as `pdf_main.py`**, and add:
 
 ```bash
 OPENAI_API_KEY=your_key_here
-OPENAI_MODEL=gpt-5-nano #can change this model depending on your needs
+OPENAI_MODEL=gpt-4o-mini #can change this model depending on your needs
 ```
 
 **Important:** Don't commit `.env` to Git (keep it private).

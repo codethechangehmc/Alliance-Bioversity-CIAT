@@ -16,14 +16,14 @@ from rapidfuzz import fuzz
 # Config
 # =============================================================================
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(dotenv_path=REPO_ROOT / ".env")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise EnvironmentError(f"OPENAI_API_KEY not found. Expected it in: {REPO_ROOT / '.env'}")
 
-MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano")
+MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 CLEANED_PDFS_DIR = REPO_ROOT / "pdf_processing" / "finished_data"

@@ -30,7 +30,7 @@ if not OPENAI_API_KEY:
         f"Expected it in: {DOTENV_PATH}"
     )
 
-MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano")
+MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # -----------------------------------------------------------------------------

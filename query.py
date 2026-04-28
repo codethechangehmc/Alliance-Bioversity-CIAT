@@ -57,24 +57,36 @@ Return only the table in csv format without any extra response.
 example_output = """
 ```csv
 A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,Notes
-Control,Concentrate,NA,60,% Diet/day/individual,NA,NA
-MA20,Chlorella vulgaris,Supplement,1,% Diet/day/individual,NA,NA
-MA20,Concentrate,NA,48,% Diet/day/individual,NA,NA
-MA20,Moringa oleifera Ensiled,Forage Plants,11,% Diet/day/individual,NA,NA
-MA40,Chlorella vulgaris,Supplement,1,% Diet/day/individual,NA,NA
-MA40,Concentrate,NA,36,% Diet/day/individual,NA,NA
-MA40,Cotton Seed Cake,Crop Byproduct,250,g/kg/day/individual,NA,NA
-MA40,Lime,Supplement,20,g/kg/day/individual,NA,NA
-MA40,Maize,Crop Product,300,g/kg/day/individual,NA,NA
-MA40,Moringa oleifera Ensiled,Forage Plants,23,% Diet/day/individual,NA,NA
-MA40,Rice Bran,Crop Byproduct,30,g/kg/day/individual,NA,NA
-MA40,Rice Straw,Crop Byproduct,40,% Diet/day/individual,NA,NA
-MA40,Salt,Other Ingredients,10,g/kg/day/individual,NA,NA
-MA40,Unspecified Molasses,Crop Byproduct,30,g/kg/day/individual,NA,NA
-MA40,Urea,Supplement,10,g/kg/day/individual,NA,NA
-MA40,Water,Other Ingredients,NA,ad libitum,NA,Yes
-MA40,Wheat Bran,Crop Byproduct,350,g/kg/day/individual,NA,NA
+TMRL,Yellow maize meal,Crop Product,22.0,%,Yes,Yes,Purchased on the local market.
+TMRL,Eragrostis curvula,Forage Plants,18.0,%,Yes,Yes,Purchased on the local market.
+TMRL,Leucaena leucocephala,Forage Plants,25.0,%,Yes,Yes,"Previously harvested three times, dried and milled."
+TMRL,Wheat bran,Crop Byproduct,8.0,%,Yes,Yes,
+TMRL,Cottonseed oil cake meal,Supplement,9.0,%,Yes,Yes,Part of the oil seed cake blend.
+TMRL,Sunflower oil cake meal,Supplement,9.0,%,Yes,Yes,Part of the oil seed cake blend.
+TMRL,Molasses meal,Other Ingredients,7.0,%,Yes,Yes,
+TMRL,Mineral mix,Other Ingredients,2.0,%,Yes,Yes,"Included limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix."
+OSCM,Yellow maize meal,Crop Product,27.0,%,Yes,Yes,Purchased on the local market.
+OSCM,Eragrostis curvula,Forage Plants,30.0,%,Yes,Yes,Purchased on the local market.
+OSCM,Wheat bran,Crop Byproduct,8.0,%,Yes,Yes,
+OSCM,Cottonseed oil cake meal,Supplement,11.0,%,Yes,Yes,Part of the oil seed cake blend.
+OSCM,Sunflower oil cake meal,Supplement,11.0,%,Yes,Yes,Part of the oil seed cake blend.
+OSCM,Full fat soybean meal,Supplement,4.0,%,Yes,Yes,Used as a source of protein.
+OSCM,Molasses meal,Other Ingredients,7.0,%,Yes,Yes,
+OSCM,Mineral mix,Other Ingredients,2.0,%,Yes,Yes,"Included limestone flour, salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix."
 ```
+"""
+
+example_input = """
+Example paper excerpt:
+Materials and methods
+Animals were assigned to two diets: TMRL and OSCM.
+The TMRL diet contained 22% yellow maize meal, 18% Eragrostis curvula, 25% Leucaena leucocephala, 8% wheat bran,
+9% cottonseed oil cake meal, 9% sunflower oil cake meal, 7% molasses meal, and 2% mineral mix.
+The OSCM diet contained 27% yellow maize meal, 30% Eragrostis curvula, 8% wheat bran, 11% cottonseed oil cake meal,
+11% sunflower oil cake meal, 4% full fat soybean meal, 7% molasses meal, and 2% mineral mix.
+The ingredients were dry. Feed was offered ad libitum. Yellow maize meal and Eragrostis curvula were purchased on the local market.
+Leucaena leucocephala was previously harvested three times, dried and milled. The mineral mix included limestone flour,
+salt, di-calcium phosphate, sodium bicarbonate, and vitamin pre-mix.
 """
 
 def list_paper_ids(pdf_path=PDF_PATH):
@@ -116,6 +128,33 @@ def build_cleaned_pdf_text(cleaned_pdf_dict):
     return cleaned_pdf_text
 
 
+def build_llm_messages(cleaned_pdf_text, user_query):
+    system_prompt = f"""
+{pre_prompt}
+
+You will be given text extracted from one scientific paper.
+If the paper contains diet ingredients in prose or tables, extract them into CSV.
+Return only a CSV table wrapped in a ```csv fenced block.
+If the paper does not contain any diet ingredient information, return a CSV block with only the header row.
+Do not answer with plain prose such as "I don't know".
+"""
+
+    paper_query = f"""
+{user_query}
+
+--------------------
+The data:
+{cleaned_pdf_text}
+"""
+
+    return [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": example_input},
+        {"role": "assistant", "content": example_output},
+        {"role": "user", "content": paper_query},
+    ]
+
+
 def run_llm_csv_extraction(
     user_query=user_query_default,
     pdf_path=PDF_PATH,
@@ -142,35 +181,31 @@ def run_llm_csv_extraction(
         cleaned_pdf_text = build_cleaned_pdf_text(cleaned_pdf_dict)
 
         client = OpenAI()
-
-        user_query = f"""
-            {user_query}
-            --------------------
-            The data:
-            {cleaned_pdf_text}
-        """
+        messages = build_llm_messages(cleaned_pdf_text, user_query)
 
         response = client.chat.completions.create(
             model=chosen_model,
-            messages=[
-                {"role": "system", "content": pre_prompt},
-                {"role": "user", "content": user_query},
-                {"role": "assistant", "content": example_output},
-            ]
+            messages=messages
         )
 
         response_text = response.choices[0].message.content
         print("\n\n---------------------\n\n")
         print(response_text)
 
-        first_newline_ind = response_text.find('\n')
-        last_newline_ind = response_text.rfind('\n')
+        match = re.search(r"```(?:csv)?\s*(.*?)```", response_text, flags=re.DOTALL | re.IGNORECASE)
+        if match:
+            csv_string = match.group(1).strip()
+        else:
+            first_newline_ind = response_text.find('\n')
+            last_newline_ind = response_text.rfind('\n')
+            if first_newline_ind < 0 or last_newline_ind < 0 or first_newline_ind == last_newline_ind:
+                print(f"Warning: no CSV table found for paper {PAPER_ID}. Skipping")
+                continue
+            csv_string = response_text[first_newline_ind + 1: last_newline_ind].strip()
 
-        if first_newline_ind < 0 or last_newline_ind < 0 or first_newline_ind == last_newline_ind:
+        if not csv_string:
             print(f"Warning: no CSV table found for paper {PAPER_ID}. Skipping")
             continue
-
-        csv_string = response_text[first_newline_ind + 1: last_newline_ind]
 
         try:
             output_df = pd.read_csv(StringIO(csv_string), sep=",")
@@ -178,7 +213,10 @@ def run_llm_csv_extraction(
             print(f"Failed to parse CSV for {PAPER_ID}: {e}")
             continue
 
-        output_df.insert(loc=0, column="B.Code", value=PAPER_ID)
+        if "B.Code" not in output_df.columns:
+            output_df.insert(loc=0, column="B.Code", value=PAPER_ID)
+        else:
+            output_df["B.Code"] = PAPER_ID
 
         # find_kg = output_df[output_df['D.Unit.Amount'].str.contains('kg', case=False, na=False)]
 
