@@ -1,0 +1,21 @@
+paper_id,total_accuracy,A.Level.Name,D.Item,D.Type,D.Amount,D.Unit.Amount,DC.Is.Dry,D.Ad.lib,has_acceptable_units,mentions_grazing,grazing_terms_found,grazing_management_reported,grazing_management_notes,weight_mean,weight_stdev,weight_units,weight_info
+AG0045,,,,,,,,,True,False,,,,,,,
+BO1006,28.57,0.0,100.0,0.0,100.0,0.0,0.0,0.0,True,True,pasture,false,The text primarily discusses diet composition and nutritional analysis without details on grazing management.,,,,
+EM1019,28.57,0.0,100.0,0.0,100.0,0.0,0.0,0.0,True,True,grazing; pasture,true,Lambs grazed daily from 9 am to 5 pm.,,,,
+EM1023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,True,grazing; pasture; pastures,true,"Experimental setup included details on feed types, supplementation rates, feeding frequency, and grazing duration.",,,,
+EM1050,33.33,0.0,66.67,66.67,100.0,0.0,0.0,0.0,True,False,,,,,,,
+EM1052,37.5,100.0,25.0,37.5,100.0,0.0,0.0,0.0,True,False,,,,,,,
+EM1060,34.92,0.0,55.56,100.0,88.89,0.0,0.0,0.0,True,False,,,,,,,
+EM1061,42.86,100.0,42.86,57.14,100.0,0.0,0.0,0.0,True,False,,,,,,,
+EO0138,,,,,,,,,True,False,,,,,,,
+HK0028,51.19,0.0,75.0,58.33,75.0,75.0,75.0,0.0,True,False,,,,34.15,0.0,kg,"Twelve pigs were weighed before and after the collection period, with weights ranging between 35.0 and 39.3 kg. Eighteen weaner pigs had an average initial body weight ranging between 10.9 and 16.0 kg."
+JO1044,47.96,0.0,64.29,71.43,0.0,0.0,100.0,100.0,True,False,,,,,,,
+JO1055,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,False,,,,,,,
+JO1061,38.78,0.0,100.0,100.0,71.43,0.0,0.0,0.0,True,False,,,,,,,
+JO1068,36.16,28.12,71.88,75.0,78.12,0.0,0.0,0.0,True,False,,,,,,,
+JS0124,11.11,0.0,22.22,0.0,55.56,0.0,0.0,0.0,True,False,,,,,,,
+JS0309,50.0,0.0,75.0,75.0,100.0,100.0,0.0,0.0,True,False,,,,1097.3975,,g,"The study reports body weights at 1-day-old, 6 weeks, and 20 weeks for the F1 and F2 generations of naked neck (Na/na) and normal feathered (na/na) birds. In the F1 generation, the Na/na birds had a live weight of 43.2 g at 1-day-old, 449.0 g at 6 weeks, and 1895.8 g at 20 weeks. The na/na birds had weights of 41.6 g, 409.7 g, and 1565.4 g, respectively. In the F2 generation, the Na/Na birds had a 1-day-old weight of 39.7 g, Na/na had 38.7 g, and na/na birds had 42.3 g. At 20 weeks, Na/Na weighed 2086 g, Na/na 2124 g, and na/na 2009 g."
+JS0341,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,True,pasture; pastures,true,"The paper mentions the establishment and management of grass (Cynodon dactylon) and legume (Stylosanthes hamata) pastures, including planting rates and pasture size.",,,,
+JS0374,38.35,0.0,68.42,0.0,0.0,0.0,100.0,100.0,True,True,graze; grazed; grazing,true,"The paper discusses three grazing regimes: Cut-and-carry (CC), seasonal grazing (SG), and continuous grazing (CG), with details on biomass production, species composition, and grazing duration.",,,,
+LM0320,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,True,grazing; pastures,false,No details on grazing management such as hours grazed or stocking rates are provided.,,,,
+LM0336,34.92,100.0,22.22,22.22,100.0,0.0,0.0,0.0,True,False,,,,,,,

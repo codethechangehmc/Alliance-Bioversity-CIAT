@@ -6,7 +6,7 @@ import json
 import pandas as pd
 
 # Path to cleaned JSON files produced by the PDF extraction pipeline
-CLEANED_PDFS_PATH = "pdf_processing/finished_data"
+CLEANED_PDFS_PATH = "pdf_processing/mds"
 
 load_dotenv()
 
@@ -75,7 +75,7 @@ def build_cleaned_pdf_text(cleaned_pdf_dict):
 
 
 def run_weight_qaqc(
-    all_outputs_csv="all_outputs.csv",
+    all_outputs_csv="outputs/all_outputs.csv",
     cleaned_pdfs_path=CLEANED_PDFS_PATH,
     output_csv="weight_info.csv"
 ):

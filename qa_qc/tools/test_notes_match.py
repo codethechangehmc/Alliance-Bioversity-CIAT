@@ -3,7 +3,7 @@ import re
 import string
 from pathlib import Path
 
-CLEANED = Path('pdf_processing/finished_data/cleaned_bo1005-leketa-2019.json')
+CLEANED = Path('pdf_processing/mds/cleaned_bo1005-leketa-2019.json')
 
 def normalize_text(s):
     if not isinstance(s, str):

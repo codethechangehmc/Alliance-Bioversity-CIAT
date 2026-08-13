@@ -69,11 +69,11 @@ def main() -> None:
     """
     Batch runner:
       - processes every *.pdf in ./pdfs/
-      - writes intermediate artifacts to ./finished_data/
+      - writes intermediate artifacts to ./mds/
     """
     parent_dir = Path(__file__).parent.resolve()
     pdfs_dir = parent_dir / "pdfs"
-    output_dir = parent_dir / "finished_data"
+    output_dir = parent_dir / "mds"
 
     print("Project root:     ", parent_dir)
     print("PDFs directory:   ", pdfs_dir)

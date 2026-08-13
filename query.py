@@ -12,7 +12,7 @@ from io import StringIO
 
 # Paths
 PDF_PATH = "pdf_processing/pdfs"
-CLEANED_PDFS_PATH = "pdf_processing/finished_data"
+CLEANED_PDFS_PATH = "pdf_processing/mds"
 
 # environment
 load_dotenv()
@@ -159,7 +159,7 @@ def run_llm_csv_extraction(
     user_query=user_query_default,
     pdf_path=PDF_PATH,
     cleaned_pdfs_path=CLEANED_PDFS_PATH,
-    output_csv="all_outputs.csv"
+    output_csv="outputs/all_outputs.csv"
 ):
     paper_ids = list_paper_ids(pdf_path)
     total_count = len(paper_ids)
@@ -168,6 +168,7 @@ def run_llm_csv_extraction(
 
     for PAPER_ID in paper_ids:
         processed_count += 1
+        print("\n\n---------------------\n\n")
         print(f"Currently working on paper {processed_count}/{total_count}: {PAPER_ID}")
 
         json_file = get_cleaned_json_file(cleaned_pdfs_path, PAPER_ID)
@@ -189,7 +190,7 @@ def run_llm_csv_extraction(
         )
 
         response_text = response.choices[0].message.content
-        print("\n\n---------------------\n\n")
+        print("\n\n")
         print(response_text)
 
         match = re.search(r"```(?:csv)?\s*(.*?)```", response_text, flags=re.DOTALL | re.IGNORECASE)
@@ -365,7 +366,7 @@ def run_query(
     user_query=user_query_default,
     pdf_path=PDF_PATH,
     cleaned_pdfs_path=CLEANED_PDFS_PATH,
-    all_outputs_csv="all_outputs.csv",
+    all_outputs_csv="outputs/all_outputs.csv",
     include_chroma=False
 ):
     run_llm_csv_extraction(

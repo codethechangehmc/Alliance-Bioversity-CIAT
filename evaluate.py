@@ -2,9 +2,9 @@
 import pandas as pd
 from rapidfuzz import fuzz
 
-QUERIED_CSV_PATH = "all_outputs.csv"
+QUERIED_CSV_PATH = "outputs/all_outputs.csv"
 VALIDATION_DATA_PATH = "validation.csv"
-OUTPUT_CSV_PATH = "evaluation_results.csv"
+OUTPUT_CSV_PATH = "outputs/evaluation_results.csv"
 
 
 def evaluate(query_CSV, validation_CSV, output_CSV=OUTPUT_CSV_PATH):

@@ -26,10 +26,10 @@ if not OPENAI_API_KEY:
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-CLEANED_PDFS_DIR = REPO_ROOT / "pdf_processing" / "finished_data"
-ALL_OUTPUTS_CSV = REPO_ROOT / "all_outputs.csv"
-VALIDATIONS_CSV = REPO_ROOT / "validations.csv"
-OUTPUT_CSV = REPO_ROOT / "paper_info_flags.csv"
+CLEANED_PDFS_DIR = REPO_ROOT / "pdf_processing" / "mds"
+ALL_OUTPUTS_CSV = REPO_ROOT / "outputs" / "all_outputs.csv"
+VALIDATION_CSV = REPO_ROOT / "validation.csv"
+OUTPUT_CSV = REPO_ROOT / "outputs" / "paper_qaqc_summary.csv"
 
 # =============================================================================
 # Shared helpers
@@ -385,7 +385,7 @@ def main() -> None:
     print(f"Flagged {len(flags_df)} papers.")
 
     print("\n=== Step 2/3: Evaluator ===")
-    eval_df = run_evaluate(ALL_OUTPUTS_CSV, VALIDATIONS_CSV)
+    eval_df = run_evaluate(ALL_OUTPUTS_CSV, VALIDATION_CSV)
     print(f"Evaluated {len(eval_df)} papers.")
 
     print("\n=== Step 3/3: Weight QAQC ===")

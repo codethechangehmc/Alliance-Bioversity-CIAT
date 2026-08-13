@@ -272,6 +272,6 @@ def analyze_json_directory(json_dir: str | Path, csv_path: str | Path) -> None:
 
 if __name__ == "__main__":
     parent_dir = Path(__file__).parent.resolve()
-    finished_data_dir = parent_dir / "finished_data"
-    output_csv = finished_data_dir / "paper_flags_summary.csv"
-    analyze_json_directory(finished_data_dir, output_csv)
+    mds_dir = parent_dir / "mds"
+    output_csv = mds_dir / "paper_flags_summary.csv"
+    analyze_json_directory(mds_dir, output_csv)

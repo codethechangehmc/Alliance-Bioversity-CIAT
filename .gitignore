@@ -1,10 +1,10 @@
 chroma_db/*
 pdfs/*
 .env
-*.csv
-pdf_processing/finished_data/*
+pdf_processing/mds/*
+!pdf_processing/mds/.gitkeep
 pdf_processing/pdfs/*
-pdf_processing/README.md
+!pdf_processing/pdfs/.gitkeep
 
 __pycache__
 **__pycache__
@@ -17,5 +17,4 @@ __pycache__/
 
 exploratory_transformers.py
 all_outputs.csv
-validation.csv
 

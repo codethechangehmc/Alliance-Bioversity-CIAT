@@ -207,7 +207,7 @@ def process_cleaned_json_to_csv_tables(
 
 
 def process_all_cleaned_jsons(
-    finished_data_dir: str | Path,
+    mds_dir: str | Path,
     tables_out_root: str | Path,
     model: str = MODEL,
 ) -> dict[str, list[Path]]:
@@ -215,7 +215,7 @@ def process_all_cleaned_jsons(
     Batch mode over a directory of cleaned JSON files.
 
     Finds:
-      finished_data_dir/cleaned_*.json
+      mds_dir/cleaned_*.json
 
     Writes:
       tables_out_root/<paper_stem>/<paper_stem>-tableN.csv
@@ -223,11 +223,11 @@ def process_all_cleaned_jsons(
     Returns:
       mapping of cleaned JSON filename -> list of CSV paths written
     """
-    finished_data_dir = Path(finished_data_dir)
+    mds_dir = Path(mds_dir)
     tables_out_root = Path(tables_out_root)
     tables_out_root.mkdir(parents=True, exist_ok=True)
 
-    all_jsons = sorted(finished_data_dir.glob("cleaned_*.json"))
+    all_jsons = sorted(mds_dir.glob("cleaned_*.json"))
     total = len(all_jsons)
 
     if total == 0:
@@ -270,14 +270,14 @@ def process_all_cleaned_jsons(
 
 if __name__ == "__main__":
     # Standalone usage:
-    #   - reads cleaned_*.json in ./finished_data/
-    #   - writes CSVs to ./finished_data/tables/<paper>/
+    #   - reads cleaned_*.json in ./mds/
+    #   - writes CSVs to ./mds/tables/<paper>/
     parent = Path(__file__).parent.resolve()
-    finished_data = parent / "finished_data"
-    tables_root = finished_data / "tables"
+    mds_dir = parent / "mds"
+    tables_root = mds_dir / "tables"
 
     res = process_all_cleaned_jsons(
-        finished_data_dir=finished_data,
+        mds_dir=mds_dir,
         tables_out_root=tables_root,
         model=MODEL,
     )

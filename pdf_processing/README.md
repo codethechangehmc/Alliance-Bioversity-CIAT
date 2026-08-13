@@ -15,14 +15,14 @@ This folder contains a simple pipeline that:
 
 1) **Put PDFs in `pdfs/`**  
 2) Run `python pdf_main.py`  
-3) Find results in `finished_data/`, especially:
-   - `finished_data/cleaned_<pdf_id>.json`
-   - `finished_data/paper_flags_summary.csv`
+3) Find results in `mds/`, especially:
+   - `mds/cleaned_<pdf_id>.json`
+   - `mds/paper_flags_summary.csv`
 
 ### Optional Table Extraction
 If you also want CSV files from tables, run `table_extractor.py` after running `pdf_main.py`.
 Then find results in:
-- `finished_data/tables/<pdf_name>/*.csv`
+- `mds/tables/<pdf_name>/*.csv`
 
 ---
 
@@ -30,7 +30,7 @@ Then find results in:
 
 ```
 pdfs/                  # put PDFs here
-finished_data/         # outputs appear here after running
+mds/                   # outputs appear here after running
 pdf_main.py
 pdf_to_markdown.py
 mdtojson.py
@@ -124,7 +124,7 @@ python pdf_main.py
 Look in:
 
 ```
-finished_data/
+mds/
 ```
 
 You'll see files like:
@@ -143,7 +143,7 @@ python table_extractor.py
 Then look in:
 
 ```
-finished_data/tables/<pdf_name>/
+mds/tables/<pdf_name>/
 ```
 
 You'll see files like:
@@ -155,7 +155,7 @@ You'll see files like:
 - If the script runs but produces no output, check that your PDF filenames end in lowercase `.pdf` (not `.PDF`).
 - Processing time depends on the size and number of PDFs. Large files or batches may take several minutes.
 - If the pipeline stops partway through, check the terminal output for error messages — these usually indicate which step failed (e.g., conversion or cleaning).
-- If you are re-running the pipeline on the same PDFs, check whether old output files in `finished_data/` are being overwritten as expected, or whether you need to clear the folder first.
+- If you are re-running the pipeline on the same PDFs, check whether old output files in `mds/` are being overwritten as expected, or whether you need to clear the folder first.
 
 ---
 
@@ -163,7 +163,7 @@ You'll see files like:
 
 ### `pdf_main.py` — Runs the Core Pipeline for Every PDF
 **Input:** all `*.pdf` files in `pdfs/`  
-**Outputs:** intermediate files in `finished_data/`
+**Outputs:** intermediate files in `mds/`
 
 What it does:
 - loops over PDFs in `pdfs/`
@@ -183,7 +183,7 @@ for pdf in pdfs:
 
 ### `pdf_to_markdown.py` — Converts a PDF into a Markdown Text File
 **Input:** one PDF  
-**Output:** `finished_data/output.md`
+**Output:** `mds/output.md`
 
 What it does:
 - uses Docling (an open-source Python library developed by IBM Research designed to convert PDFs into machine-readable formats, like JSON)
@@ -199,8 +199,8 @@ md = result.document.export_to_markdown()
 ---
 
 ### `mdtojson.py` — Turns Markdown into Structured JSON (Split into Sections)
-**Input:** `finished_data/output.md`  
-**Output:** `finished_data/<pdf_id>.json`
+**Input:** `mds/output.md`  
+**Output:** `mds/<pdf_id>.json`
 
 What it does:
 - splits the Markdown into sections at headings like `## Results`
@@ -212,8 +212,8 @@ What it does:
 ---
 
 ### `json_editor.py` — Cleans Up the JSON Text
-**Input:** `finished_data/<pdf_id>.json`  
-**Output:** `finished_data/cleaned_<pdf_id>.json`
+**Input:** `mds/<pdf_id>.json`  
+**Output:** `mds/cleaned_<pdf_id>.json`
 
 What it does:
 - fixes common PDF artifacts (e.g., stray hyphens, broken line endings, garbled characters)
@@ -222,8 +222,8 @@ What it does:
 ---
 
 ### `paper_flagger.py` — Flags Papers for Acceptable Units and Grazing Mentions
-**Input:** `finished_data/cleaned_<pdf_id>.json`  
-**Output:** `finished_data/paper_flags_summary.csv`
+**Input:** `mds/cleaned_<pdf_id>.json`  
+**Output:** `mds/paper_flags_summary.csv`
 
 What it does:
 - combines the cleaned text into one input
@@ -234,8 +234,8 @@ What it does:
 ---
 
 ### `table_extractor.py` — Finds Tables and Outputs Them as CSV (via OpenAI API)
-**Input:** `finished_data/cleaned_<pdf_name>.json`  
-**Output:** CSV files in `finished_data/tables/<pdf_name>/`
+**Input:** `mds/cleaned_<pdf_name>.json`  
+**Output:** CSV files in `mds/tables/<pdf_name>/`
 
 What it does:
 1. combines the cleaned text into one input

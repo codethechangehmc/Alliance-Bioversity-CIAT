@@ -1,29 +1,29 @@
 ﻿from pdf_processing import pdf_main
 from query import run_query
 from evaluate import evaluate
-from outputs import paper_info_flagger
+from qa_qc import build_qaqc_summary
 
-QUERIED_CSV_PATH = "all_outputs.csv"
+QUERIED_CSV_PATH = "outputs/all_outputs.csv"
 VALIDATION_DATA_PATH = "validation.csv"
-OUTPUT_CSV_PATH = "evaluation_results.csv"
+OUTPUT_CSV_PATH = "outputs/evaluation_results.csv"
 
 
 def main():
     print("=== Starting PDF processing pipeline ===")
     pdf_main.main()
-    print("=== PDF processing done ===\n")
+    print("=== PDF processing complete ===\n")
 
     print("=== Starting LLM query pipeline ===")
-    run_query()
-    print("=== LLM query processing done ===\n")
+    run_query(all_outputs_csv=QUERIED_CSV_PATH)
+    print("=== LLM query processing complete ===\n")
 
     print("=== Starting evaluation ===")
-    evaluate(QUERIED_CSV_PATH, VALIDATION_DATA_PATH)
-    print("=== Evaluation done ===\n")
+    evaluate(QUERIED_CSV_PATH, VALIDATION_DATA_PATH, OUTPUT_CSV_PATH)
+    print("=== Evaluation complete ===\n")
 
-    print("=== Starting paper info flagging ===")
-    paper_info_flagger.main()
-    print("=== Paper info flagging done ===\n")
+    print("=== Starting QA/QC summary ===")
+    build_qaqc_summary.main()
+    print("=== QA/QC summary complete ===\n")
 
 
 if __name__ == "__main__":

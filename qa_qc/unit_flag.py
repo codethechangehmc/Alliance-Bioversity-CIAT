@@ -1,5 +1,9 @@
 import pandas as pd
-from weight_checks import run_weight_qaqc, is_weight_relative_unit
+
+try:
+    from .weight_checks import run_weight_qaqc, is_weight_relative_unit
+except ImportError:
+    from weight_checks import run_weight_qaqc, is_weight_relative_unit
 
 # Thresholds (normalized to grams)
 HIGH_G = 50_000  # > 50 kg/day/animal => unrealistically high
@@ -36,7 +40,7 @@ def normalize_to_grams(amount, unit_str, paper_id, weight_lookup):
 
 
 def run_unit_flagging(
-    all_outputs_csv="all_outputs.csv",
+    all_outputs_csv="outputs/all_outputs.csv",
     weight_info_csv="weight_info.csv",
 ):
     df = pd.read_csv(all_outputs_csv)
